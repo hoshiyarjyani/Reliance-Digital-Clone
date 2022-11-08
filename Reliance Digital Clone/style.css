@@ -15,8 +15,7 @@ header {
   display: flex;
   justify-content: end;
   font-size: 17px;
-
-  margin-right: 5px;
+  margin-right: 15px;
   font-weight: 700;
 }
 #nav1 > div {
@@ -37,7 +36,7 @@ header {
 
 #pincartlogin {
   display: flex;
-  margin-right: 5px;
+  margin-right: 15px;
   font-size: 17px;
   font-weight: 700;
 }
@@ -84,4 +83,32 @@ header {
     background-color: #003380;
     padding: 10px 0;
     margin-bottom: 0;
+}
+
+/* top big banner */
+
+#topbigbanner{
+    width: 100%;
+}
+#topbigbanner img{
+    width: 100%;
+}
+
+/* top crausal */
+#crousal{
+    width: 100%;
+}
+#crousal img{
+    width: 100%;
+}
+
+/* crausal slide show top */
+#crouselbtnpre, #crouselbtnnext{
+        border: 1px solid black;
+        height: 5rem;
+        width: 1.8rem;
+        background-color: white;
+        margin: auto;
+        color: black;
+        border: 0;
 }

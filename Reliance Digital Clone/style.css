@@ -43,13 +43,17 @@ header {
 }
 
 #brandlogo {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
-
+#brandlogo img {
+  width: 50%;
+  padding-bottom: 0.7rem;
+}
 #searchbar {
   background-color: white;
   height: 2.1rem;
   border-radius: 25px;
+  margin-right: 7rem;
 }
 #searchbar button {
   background-color: white;

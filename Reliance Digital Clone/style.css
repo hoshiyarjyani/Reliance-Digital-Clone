@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+}
+/* header seaction css */
+
+/* nav 1st part  */
+
+header {
+  margin: 0;
+  background-color: #e42529;
+  color: white;
+  padding-bottom: 4px;
+}
+#nav1 {
+  display: flex;
+  justify-content: end;
+  font-size: 17px;
+
+  margin-right: 5px;
+  font-weight: 700;
+}
+#nav1 > div {
+  padding: 5px;
+}
+#nav1 .fa-map-marker {
+  font-size: 22px;
+}
+
+/* nav 2nd part */
+
+#nav2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+#pincartlogin {
+  display: flex;
+  margin-right: 5px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#brandlogo {
+  margin-left: 3rem;
+}
+
+#searchbar {
+  background-color: white;
+  height: 2.1rem;
+  border-radius: 25px;
+}
+#searchbar button {
+  background-color: white;
+  border: 0px solid white;
+  margin-right: 1rem;
+  color: gray;
+}
+#searchbar input {
+  width: 27rem;
+  padding: 8px 2px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+}
+
+#pincartlogin div {
+  padding: 5px;
+}

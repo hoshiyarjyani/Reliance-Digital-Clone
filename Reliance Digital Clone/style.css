@@ -103,7 +103,7 @@ header {
 }
 
 /* crausal slide show top */
-#crouselbtnpre, #crouselbtnnext{
+#crouselbtnpre, #crouselbtnnext,#crouselbtnpre1, #crouselbtnnext1 {
         border: 1px solid black;
         height: 5rem;
         width: 1.8rem;
@@ -112,3 +112,59 @@ header {
         color: black;
         border: 0;
 }
+
+/* crausal product top */
+
+#crousalproduct p{
+    color: #003380;
+    font-size: 20px;
+    height: 2.6em;
+    line-height: 1.4em;
+    margin-right: 20px;
+    overflow: hidden;
+}
+#crousalproduct img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+#crousalproduct img:hover{
+    width: 106%;
+}
+#crousalproduct h6{
+    font-size: 15px;
+    
+}
+#crousalproduct h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+#procra1{
+    display: flex;
+   padding: 0 3rem;
+    justify-content: space-between;
+    width: 100%;
+}
+#procra1>div{
+    padding: 1rem;
+    width: 15%;
+}
+
+
+#procra2{
+    display: flex;
+   padding: 0 3rem;
+    justify-content: space-between;
+    width: 100%;
+}
+#procra2>div{
+    padding: 1rem;
+    width: 15%;
+}
+.offerdiv{
+    color: green;
+    border: 1px solid green;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+}
+

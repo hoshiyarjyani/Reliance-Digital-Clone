@@ -9,7 +9,7 @@ header {
   margin: 0;
   background-color: #e42529;
   color: white;
-  padding-bottom: 4px;
+  
 }
 #nav1 {
   display: flex;
@@ -72,4 +72,16 @@ header {
 
 #pincartlogin div {
   padding: 5px;
+}
+
+/* BLUE NAV BAR */
+
+#navblue{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #003380;
+    padding: 10px 0;
+    margin-bottom: 0;
 }

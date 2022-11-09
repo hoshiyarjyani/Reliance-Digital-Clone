@@ -226,6 +226,27 @@ var TvProCra2 = [
   },
 ];
 
+
+var categoryPics = [
+    {image:"https://www.reliancedigital.in/medias/Televisions-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w4MTU1NXxpbWFnZS9qcGVnfGltYWdlcy9oNDEvaDYwLzk5MTM3Nzc1MjA2NzAuanBnfGIxMjNhZGFhN2FiYzVmMTRmNjExNDkyOTliNjZkYmNhNjk5NDI5Y2ZkODU2MmNjZmViMmQ3N2FlY2EyZDZjYjk"},
+    {image:"https://www.reliancedigital.in/medias/Smartwatches-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0OTAwNHxpbWFnZS9qcGVnfGltYWdlcy9oNzUvaDMxLzk5MTM3Nzc2NTE3NDIuanBnfDc0ZjgyYjQzZjcxNGYxMWUxMDdkOTk1Y2RlNTg2MWJlMTdmMmJlYTcwNmUxN2NhNTAzM2JmZTQxNmFjNjgzYjU"},
+    {image:"https://www.reliancedigital.in/medias/Washing-Machines-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NDcwMHxpbWFnZS9qcGVnfGltYWdlcy9oNWIvaDUwLzk5MTM3Nzc3MTcyNzguanBnfGMyNWJhNDNiMTFkMjE4YmQ2OGRiMzdkMGIxNmZmZDhiYzViMTBjY2I1ZDllYzAyMWFjN2FlZTU1ZGVmMDk4MmU"},
+    {image:"https://www.reliancedigital.in/medias/Printers-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjMwNnxpbWFnZS9qcGVnfGltYWdlcy9oZWIvaDRjLzk5MTM3Nzc1ODYyMDYuanBnfGZkMDA2YTU3ZTUxMGNjZTAwNjQxNmE3ZGZjNjg4NDI4NTE1ZDBhZWJhMThiZjMxMTJkNjdmMTliOWQ5ODdiNGY"},
+    {image:"https://www.reliancedigital.in/medias/5G-smartphones-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjI5MXxpbWFnZS9qcGVnfGltYWdlcy9oYTkvaDMwLzk5MTYxNzg1NjMxMDIuanBnfGNjMTViZWY2NDViY2YyYmI4MTc3YzhlNWU3NDViYzAwOTAzYWRiYmRmNzI2YzYzYTcwYTA5ZjVlNjQxZWJkYmQ"},
+    {image:"https://www.reliancedigital.in/medias/True-Wireless-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oODAvaDljLzk5MTM3NzcyNTg1MjYuanBnfGY3MDIxZDZlYTBhMjEwYjQ4NGIzMmQwZjdjMzQ2M2FhYzIwYWE0NGE4MzFmYjRlZjQwNzFlZjk2NWMwMzYxN2Y"},
+    {image:"https://www.reliancedigital.in/medias/Gaming-laptops-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NzM3MHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaGRlLzk5MTM3Nzc0NTUxMzQuanBnfDYwNGRmMTk1MGM3YmVlMjc5MTkzYjRmNTgzMWNjYjZmOGM3NTdhMzY5Njk1OTEwYWVkYWVhOTUzYTk2ZTFjZWY"},
+    {image:"https://www.reliancedigital.in/medias/Winter-Appliances-Small-banners.jpg?context=bWFzdGVyfGltYWdlc3w2ODA0M3xpbWFnZS9qcGVnfGltYWdlcy9oYTUvaDhmLzk5MTM3NzczMjQwNjIuanBnfDdjMTE5YzUzNjcyODZiNDljNGJlNDMzZTNkNGI5Nzg2ZjlhOTg0YmFhYTViOTZmOTFkNmY1MWRlZGQ4NWY5ZDY"}
+];
+
+let categorycards = document.querySelector("#categorypics");
+for(let i = 0; i<categoryPics.length;i++){
+    let catdiv = document.createElement("div");
+    let image = document.createElement("img");
+    image.src = categoryPics[i].image;
+    catdiv.append(image);
+    categorycards.append(catdiv);
+}
+
 // for sticky navbar
 
 window.onscroll = function () {

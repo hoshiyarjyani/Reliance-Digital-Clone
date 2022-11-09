@@ -230,3 +230,29 @@ header {
   padding: 0 1rem;
   width: 15%;
 }
+
+/* category product images 8 pics 2row */
+#categorypics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#categorypics div {
+  width: 24%;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+#categorypics img {
+  width: 100%;
+}
+
+/* iphone crousal banner */
+
+#crousaliphone {
+  width: 100%;
+}
+#crousaliphone img {
+  width: 100%;
+}

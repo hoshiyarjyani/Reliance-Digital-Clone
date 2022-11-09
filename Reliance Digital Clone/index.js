@@ -113,6 +113,23 @@ var proCra2 = [
   },
 ];
 
+// for sticky navbar
+
+window.onscroll = function () {
+  myFunction();
+};
+
+var navbar = document.getElementById("navbarsticky");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 //top crousal 5product appand
 let p1 = document.querySelector("#procra1");
 let p2 = document.querySelector("#procra2");
@@ -134,7 +151,7 @@ function displaycard(data, box) {
     brand.innerHTML = data[i].brand;
 
     let rating = document.createElement("h6");
-    rating.innerHTML = "Rating - " + data[i].rating+" ⭐";
+    rating.innerHTML = "Rating - " + data[i].rating + " ⭐";
 
     let offerprice = document.createElement("h5");
     offerprice.innerHTML = "Deal Price - ₹" + data[i].offerprice;
@@ -151,7 +168,7 @@ function displaycard(data, box) {
 
     let offerdiv = document.createElement("div");
     offerdiv.classList.add("offerdiv");
-    offerdiv.innerText="OFFERS AVAILABLE";
+    offerdiv.innerText = "OFFERS AVAILABLE";
     card.append(
       image,
       title,

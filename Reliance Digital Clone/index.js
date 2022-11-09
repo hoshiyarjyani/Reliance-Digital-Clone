@@ -318,41 +318,131 @@ var monitor1 = [
 ];
 //monitar data slide2
 var monitor2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Acer-HA240Y-Monitors-492849988-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg2MDd8aW1hZ2UvanBlZ3xpbWFnZXMvaDE4L2g1Ni85ODE3MzExNTc2MDk0LmpwZ3w0ZWEzNmQ1ODE2NWNkZWQ0MGIzYmUxYzU2ZmUxMzZhYWE1MGFmZDg1NmJiZDhmMWE1Y2NiMjRhYmFjOTIzNTlj",
+    title:
+      "Acer HA240Y 60.45 cm (23.8 inch) with IPS Panel Technology, White Monitor",
+    brand: "ACER",
+    rating: 4.9,
+    offerprice: 10299.0,
+    mrp: 17455.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Acer-EK240YC-LED-492574202-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjgxN3xpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDY5Lzk4MzI4NTkyNzExOTguanBnfDJjNjJmOTgyMDdmNDZiNDljZDk4ZTgzYjA3MjU3ZGNiOGFhOWVlNGI2MmE1MWNkYTE2ZWIxY2NmMTYyYzIwN2Q",
+    title:
+      "Acer EK240YC 60.5 cm (23.8 inch) with VA Panel Technology 1920 x 1080 Resolution Refresh Rate 75 Hz Black Monitor",
+    brand: "ACER",
+    rating: 4.6,
+    offerprice: 17387.0,
+    mrp: 25496.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Asus-VG259QR-Gaming-Monitor-491997455-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTA0NXxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaDMzLzk2NDQxMjI0Mzk3MTAuanBnfDg0OTI0MmFmNGZmOTkwNWM1ZmMyNjc2MDhjZTg0M2I2Zjc5ODYyMzg5MWE2MWY0NjZhYjY4ODRlODFlMzE5YjY",
+    title:
+      "Asus VG259QR 62.23 cm (24.5 inch) with IPS Panel Technology, 1920 x 1080  Resolution, Built-in speaker, Refresh Rate 165 Hz, Response Time 1 ms, Black Monitor",
+    brand: "ACER",
+    rating: 5.0,
+    offerprice: 18845.0,
+    mrp: 29999.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Acer-20CH1Q-Monitors-492850705-i-4-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5NDY5OHxpbWFnZS9qcGVnfGltYWdlcy9oODkvaDUwLzk4NDg0MTQwNzY5NTguanBnfGE2ODgzNzUyMWY4NGVjZjQyMmI5ZGIwNDRkMGYxYzY0NTAwNDg0NjMzMTkwNmQwNzM2N2RiNmMwODBkMGQzN2E",
+    title:
+      "Acer 20CH1Q 49.53 cm (19.5 inch) with TN Panel Technology 1366 x 768 Resolution Black Monitor",
+    brand: "ACER",
+    rating: 4.8,
+    offerprice: 12999.0,
+    mrp: 15899.0,
+    category: "Monitor",
+  },
+];
+//iphone14 crousal 1 data
+var iphone1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177749-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzA3N3xpbWFnZS9qcGVnfGltYWdlcy9oYmIvaDFlLzk4OTA0ODg0ODM4NzAuanBnfDkyMjVmOGIzMjIxNjc1MWQwYjM3MDI0M2I1OTEzYTcyMzYwNmZhMTdiYTgwYjVjYjQyNjQ3ODgzZjQ1NzQyZTM",
+    title: "Apple iPhone 14 128 GB, Midnight",
+    brand: "APPLE",
+    rating: 4.9,
+    offerprice: 79990.0,
+    mrp: 89455.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177765-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDAyMHxpbWFnZS9qcGVnfGltYWdlcy9oNDIvaDAyLzk4OTA1MzYwNjMwMDYuanBnfDQzYjhhMjgyYWJlYWJkNTBiNDM4NzI5YjA4NTU4NzY3Y2Y2ZTJjYWQxNDQ4NDE0ZWViYzJmZTdjZjYwNTQ5ZGU",
+    title: "Apple iPhone 14 Plus 128 GB, Starlight",
+    brand: "APPLE",
+    rating: 4.7,
+    offerprice: 89990.0,
+    mrp: 99455.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177756-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjYwNXxpbWFnZS9qcGVnfGltYWdlcy9oYTcvaDgwLzk4OTA1MDE1OTEwNzAuanBnfGExOTdiMzQwNWFjYzY5NWFhNGY3MjVkYmFkZWY1YjdmNjFiNjU0Yzg4NWMzNDRiYmI2NmYzYTM2N2E0ZTY1MzU",
+    title: "Apple iPhone 14 Plus 128 GB, Starlight",
+    brand: "APPLE",
+    rating: 4.8,
+    offerprice: 89990.0,
+    mrp: 99455.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+    title: "Apple iPhone 14 Plus 128 GB, Starlight",
+    brand: "APPLE",
+    rating: 5.0,
+    offerprice: 89990.0,
+    mrp: 99455.0,
+    category: "Mobile",
+  },
+];
+//iphone14 crousal 2 data
+var iphone2=[
     {
-        image:"https://www.reliancedigital.in/medias/Acer-HA240Y-Monitors-492849988-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg2MDd8aW1hZ2UvanBlZ3xpbWFnZXMvaDE4L2g1Ni85ODE3MzExNTc2MDk0LmpwZ3w0ZWEzNmQ1ODE2NWNkZWQ0MGIzYmUxYzU2ZmUxMzZhYWE1MGFmZDg1NmJiZDhmMWE1Y2NiMjRhYmFjOTIzNTlj",
-        title:"Acer HA240Y 60.45 cm (23.8 inch) with IPS Panel Technology, White Monitor",
-        brand:"ACER",
+        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+        title:"Apple iPhone 14 Plus 128 GB, Blue",
+        brand:"APPLE",
         rating:4.9,
-        offerprice:10299.00,
-        mrp:17455.00,
-        category:"Monitor"
+        offerprice:89990.00,
+        mrp:95999.00,
+        category:"Mobile",
     },
     {
-        image:"https://www.reliancedigital.in/medias/Acer-EK240YC-LED-492574202-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjgxN3xpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDY5Lzk4MzI4NTkyNzExOTguanBnfDJjNjJmOTgyMDdmNDZiNDljZDk4ZTgzYjA3MjU3ZGNiOGFhOWVlNGI2MmE1MWNkYTE2ZWIxY2NmMTYyYzIwN2Q",
-        title:"Acer EK240YC 60.5 cm (23.8 inch) with VA Panel Technology 1920 x 1080 Resolution Refresh Rate 75 Hz Black Monitor",
-        brand:"ACER",
-        rating:4.6,
-        offerprice:17387.00,
-        mrp:25496.00,
-        category:"Monitor"
-    },
-    {
-        image:"https://www.reliancedigital.in/medias/Asus-VG259QR-Gaming-Monitor-491997455-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTA0NXxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaDMzLzk2NDQxMjI0Mzk3MTAuanBnfDg0OTI0MmFmNGZmOTkwNWM1ZmMyNjc2MDhjZTg0M2I2Zjc5ODYyMzg5MWE2MWY0NjZhYjY4ODRlODFlMzE5YjY",
-        title:"Asus VG259QR 62.23 cm (24.5 inch) with IPS Panel Technology, 1920 x 1080  Resolution, Built-in speaker, Refresh Rate 165 Hz, Response Time 1 ms, Black Monitor",
-        brand:"ACER",
-        rating:5.0,
-        offerprice:18845.00,
-        mrp:29999.00,
-        category:"Monitor"
-    },
-    {
-        image:"https://www.reliancedigital.in/medias/Acer-20CH1Q-Monitors-492850705-i-4-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5NDY5OHxpbWFnZS9qcGVnfGltYWdlcy9oODkvaDUwLzk4NDg0MTQwNzY5NTguanBnfGE2ODgzNzUyMWY4NGVjZjQyMmI5ZGIwNDRkMGYxYzY0NTAwNDg0NjMzMTkwNmQwNzM2N2RiNmMwODBkMGQzN2E",
-        title:"Acer 20CH1Q 49.53 cm (19.5 inch) with TN Panel Technology 1366 x 768 Resolution Black Monitor",
-        brand:"ACER",
+        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzEyMHxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaGRhLzk4OTA1MjA5MjQxOTAuanBnfDVjZGQ3NzdkZmU4NmI4MzBjNmM3ODJjMTI2MWFiMTcxM2ViNzQ3ODE2YzA1MjIwZTliZGNiZmIxYWVmYWQyYzY",
+        title:"Apple iPhone 14 Plus 128 GB, Midnight",
+        brand:"APPLE",
         rating:4.8,
-        offerprice:12999.00,
-        mrp:15899.00,
-        category:"Monitor"
+        offerprice:109990.00,
+        mrp:125999.00,
+        category:"Mobile",
+    },
+    {
+        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+        title:"Apple iPhone 14 Plus 128 GB, Blue",
+        brand:"APPLE",
+        rating:4.9,
+        offerprice:109990.00,
+        mrp:125999.00,
+        category:"Mobile",
+    },
+    {
+        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+        title:"Apple iPhone 14 Plus 128 GB, Blue",
+        brand:"APPLE",
+        rating:5.0,
+        offerprice:119990.00,
+        mrp:123999.00,
+        category:"Mobile",
     }
 ];
 
@@ -386,11 +476,18 @@ displaycard(TvProCra1, t1);
 let t2 = document.querySelector("#proTeli2");
 displaycard(TvProCra2, t2);
 
-//top crousal of Telivisions 5 append in one slide
+//crousal of Telivisions 4 append in one slide
 let m1 = document.querySelector("#monitors1");
 displaycard(monitor1, m1);
 let m2 = document.querySelector("#monitors2");
 displaycard(monitor2, m2);
+
+//crousal of iphone14 4 append in one slide
+let i1 = document.querySelector("#iphone14-1");
+displaycard(iphone1, i1);
+let i2 = document.querySelector("#iphone14-2");
+displaycard(iphone2, i2);
+
 
 function displaycard(data, box) {
   data.forEach((elem) => {

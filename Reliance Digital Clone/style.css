@@ -378,49 +378,63 @@ header {
 
 /* 25% pic of iphone and iphone14 75%  carousal flex */
 
-#iphone14 {
+#iphone14,
+#watch {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
 }
-#iphone14carousal {
+#iphone14carousal,
+#watchcarousal {
   width: 73%;
 }
 
 #iphone14-1,
-#iphone14-2 {
+#iphone14-2,
+#watch1,
+#watch2 {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 #iphone14-1 > div,
-#iphone14-2 > div {
+#iphone14-2 > div,
+#watch1 > div,
+#watch2 > div {
   width: 16%;
 }
 #iphone14-1 > div > div,
-#iphone14-2 > div > div {
+#iphone14-2 > div > div,
+#watch1 > div > div,
+#watch2 > div > div {
   margin-top: 10px;
 }
 #iphone14-1 img,
-#iphone14-2 img {
+#iphone14-2 img,
+#watch1 img,
+#watch2 img {
   width: 100%;
 }
 
-#iphone14carousal img {
+#iphone14carousal img,
+#watchcarousal img {
   width: 100%;
 }
 
-#iphone14carousalside {
+#iphone14carousalside,
+#watchcarousalside {
   width: 24%;
   margin-top: 0.7rem;
 }
-#iphone14carousalside img {
+#iphone14carousalside img,
+#watchcarousalside img {
   width: 100%;
 }
 
-#iphone14carousal p {
+#iphone14carousal p,
+#watchcarousal p {
   color: #003380;
   font-size: 17px;
   height: 2.6em;
@@ -429,15 +443,18 @@ header {
   overflow: hidden;
 }
 
-#iphone14carousal img:hover {
+#iphone14carousal img:hover,
+#watchcarousal img:hover {
   width: 106%;
 }
-#iphone14carousal h6 {
+#iphone14carousal h6,
+#watchcarousal h6 {
   font-size: 15px;
   margin: 2px;
 }
 
-#iphone14carousal h5 {
+#iphone14carousal h5,
+#watchcarousal h5 {
   font-size: 18px;
   font-weight: 700;
   margin: 4px 0;

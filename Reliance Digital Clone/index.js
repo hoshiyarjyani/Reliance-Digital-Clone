@@ -539,6 +539,98 @@ var dailyuse2 = [
   },
 ];
 
+var watch1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/pTron-140318176-Smart-Watch-492850976-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzOTM4MHxpbWFnZS9qcGVnfGltYWdlcy9oNGYvaGJiLzk4OTU1OTAyOTc2MzAuanBnfDFkODRmMGE2ZWMyNTEzY2I5OTI2YzhiZTJkM2I0M2E0Y2NhMWNiNjRmNjA4MGNmMzE4YTZiOTg1NjZlNmRhMzM",
+    title:
+      "pTron Pulsefit F21 Plus Smart Watch with 4.31 cm (1.7 Inch) Full Touch Color Display, Black",
+    brand: "pTRON",
+    rating: 4.8,
+    offerprice: 999.0,
+    mrp: 1299.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Fire-Boltt-BSW007-Smart-Watch-492850759-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTkwMnxpbWFnZS9qcGVnfGltYWdlcy9oMmIvaDBlLzk4NTk3ODYyNzY4OTQuanBnfDdiMTBhZThkYWQ1ZDc5N2Q0NTk5MDJmYjhiYTFmNGU3MTRiMzYwN2M2YzVlMzNhNTI0N2UzMGNkZGZiY2QyMmI",
+    title:
+      "Fire-Boltt Ninja Smart Watch with Touch to Wake Feature, IP67 Water Resistant (Black)",
+    brand: "BOAT",
+    rating: 4.9,
+    offerprice: 1699.0,
+    mrp: 4999.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Hammer-PULSE-3-0-Smart-Watch-492849894-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjcyMXxpbWFnZS9qcGVnfGltYWdlcy9oMDcvaGU1Lzk4MTQ3MTk5MjIyMDYuanBnfDU4NmIxM2U0OWY3NGRmYjI3ZTA0NDQwN2EzN2ZmMDgwYjllYTQ4ZjU5OGU4MmUwYzVlNDhmN2I0OGNiZTgzYWU",
+    title:
+      "Hammer Pulse 3.0 Bluetooth Calling Smartwatch with Honeycomb Design (Black)",
+    brand: "HAMMER",
+    rating: 4.9,
+    offerprice: 1799.0,
+    mrp: 9999.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/boAt-Watch-Flash-RTL-Smart-Watches-492574195-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MDAwN3xpbWFnZS9qcGVnfGltYWdlcy9oNDMvaDA3Lzk3NTU3Nzg1NDc3NDIuanBnfDQxZGE4MzYwMzI2NjZiZjJkYWQyM2VmOGNiZTc5OWE0YmU0NTM3ODk3ZjgwMGZlYmNjMThhMTRjZmM5NDMyN2Y",
+    title:
+      "boAt Flash RTL 3.3 cm (1.29 inch) Smart Watch with Customizable Watch Faces, Lightning Black",
+    brand: "BOAT",
+    rating: 4.5,
+    offerprice: 2499.0,
+    mrp: 6900.0,
+    category: "Watch",
+  },
+];
+
+var watch2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Noise-Colorfit-Icon-Plus-Smart-Watch-492850516-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNTk5M3xpbWFnZS9qcGVnfGltYWdlcy9oMzEvaGYyLzk4Nzc2Mzc3NTkwMDYuanBnfDNiMDIzZWUxNjVkZTFkYWQzOTFiYmEyYmRmM2UxMjg1MGY1MWRmNTA1OGE2NTllNzgyMzg1MTVjM2E5NWFmZTU",
+    title: "Noise Colorfit Icon Plus Smart Watch, Jet Black",
+    brand: "NOISE",
+    rating: 4.8,
+    offerprice: 2699.0,
+    mrp: 5900.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/pTron-PULSEFIT-P261-Smart-Watch-493177969-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDUzNnxpbWFnZS9qcGVnfGltYWdlcy9oMGEvaGIzLzk4OTQ2NzAyMzc3MjYuanBnfDJjMTc3ODdhNzNiMTU2YWU2MDM4ZTRlYTQwYTljMDk1MWRmMjgwMWFkNzI4MmM5NTU2MzA3NjUzNjhkYmZkYWI",
+    title:
+      "pTron Pulsefit P261 Bluetooth Calling Smartwatch with IP68 Waterproof, Black",
+    brand: "pTRON",
+    rating: 4.2,
+    offerprice: 1499.0,
+    mrp: 5900.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/pTron-PULSEFIT-P261-Smart-Watch-493177971-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTY5MHxpbWFnZS9qcGVnfGltYWdlcy9oNWUvaGVjLzk4OTQ2NzEyMjA3NjYuanBnfGU4Zjk4YzFiMWE0MTZhYTk4MTEzYWIzYjJmNDViMGM5ZDY0MmY1ZWM1OWE0NWIyNzc1OGFmMjUwN2EyZjc3YjU",
+    title:
+      "pTron Pulsefit P261 Bluetooth Calling Smartwatch with IP68 Waterproof, Blue",
+    brand: "pTRON",
+    rating: 4.4,
+    offerprice: 1499.0,
+    mrp: 2300.0,
+    category: "Watch",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Fire-Boltt-BSW007-Smart-Watch-492850760-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzEwMXxpbWFnZS9qcGVnfGltYWdlcy9oMjMvaDY2Lzk4NTk3OTkwNTY0MTQuanBnfDEzNzY0MGE3MzkzYjUwMmE4OWNlZThmMjRmMDg3NWI3OWUzZjk3ODAzYzBhOTgzNTBlNjc1M2E2MDFlNjU0ZWI",
+    title:
+      "Fire-Boltt Ninja Smart Watch with Touch to Wake Feature, IP67 Water Resistant (Grey)",
+    brand: "BOLT",
+    rating: 4.9,
+    offerprice: 1699.0,
+    mrp: 2499.0,
+    category: "Watch",
+  },
+];
 // for sticky navbar
 
 window.onscroll = function () {
@@ -585,6 +677,13 @@ let d1 = document.querySelector("#dailyuse1");
 displaycard(dailyuse1, d1);
 let d2 = document.querySelector("#dailyuse2");
 displaycard(dailyuse2, d2);
+
+//crousal of smartwatch applinces 4 append in one slide
+let w1 = document.querySelector("#watch1");
+displaycard(watch1, w1);
+let w2 = document.querySelector("#watch2");
+displaycard(watch2, w2);
+
 
 function displaycard(data, box) {
   data.forEach((elem) => {

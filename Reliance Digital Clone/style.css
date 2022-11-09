@@ -143,30 +143,32 @@ header {
 }
 #crousalproduct h6 {
   font-size: 15px;
+  margin: 4px;
 }
 #crousalproduct h5 {
   font-size: 20px;
   font-weight: 700;
+  margin: 4px;
 }
 #procra1 {
   display: flex;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
   justify-content: space-between;
   width: 100%;
 }
 #procra1 > div {
-  padding: 1rem;
+  padding: 0 1rem;
   width: 15%;
 }
 
 #procra2 {
   display: flex;
-  padding: 0 3rem;
+  padding: 1rem 3rem;
   justify-content: space-between;
   width: 100%;
 }
 #procra2 > div {
-  padding: 1rem;
+  padding: 0 1rem;
   width: 15%;
 }
 .offerdiv {
@@ -175,4 +177,56 @@ header {
   border-radius: 15px;
   font-size: 15px;
   text-align: center;
+}
+
+/* crausal product top */
+.h4title {
+  margin-left: 1.5rem;
+  font-weight: 400;
+  margin-top: 1.3rem;
+}
+#crousalproductTelivision p {
+  color: #003380;
+  font-size: 20px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
+#crousalproductTelivision img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+#crousalproductTelivision img:hover {
+  width: 106%;
+}
+#crousalproductTelivision h6 {
+  font-size: 15px;
+  margin: 4px;
+}
+#crousalproductTelivision h5 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px;
+}
+#proTeli1 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#proTeli1 > div {
+  padding: 0 1rem;
+  width: 15%;
+}
+
+#proTeli2 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#proTeli2 > div {
+  padding: 0 1rem;
+  width: 15%;
 }

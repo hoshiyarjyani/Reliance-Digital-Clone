@@ -1,3 +1,4 @@
+// Top Craousal product (earphones )
 var proCra1 = [
   {
     image:
@@ -113,6 +114,118 @@ var proCra2 = [
   },
 ];
 
+// telivision product for carousal
+
+var TvProCra1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/HISENSE-43A6GE-Smart-LED-492338735-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NjY5OXxpbWFnZS9qcGVnfGltYWdlcy9oMTEvaDcwLzk3Nzg4NDI1OTk0NTQuanBnfGFiNzdlZmMxODczMmUyNzdlMDRkZGJjMzEyNTA4YTNhMGVhYjlhYmU0MzYwNDBmNmY4NjBlOGJjNDQwZjEzMjg",
+    title:
+      "Hisense 108 cm (43 inch) 2Yr Warranty 4K Ultra HD Smart Certified Android LED TV 43A6GE (Black) with Dolby Vision and ATMOS",
+    brand: "HISENSE",
+    rating: 4.5,
+    offerprice: 20990.0,
+    mrp: 44990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Iffalcon-55U71-Television-493179244-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjUyMXxpbWFnZS9qcGVnfGltYWdlcy9oZDMvaGM0Lzk4OTU3NzUwMTA4NDYuanBnfDhlMGU4MDEzNjUzZGNmYzM4ZTkzNTA2OGUwNDkyY2Y2ZTZkMzI5NzIyZjQzMzgzYzI1OTU0MTY5MGZjYTk5M2Y",
+    title: "IFFALCON 139.7 cm (55 Inch) Ultra HD (4K) Smart LED TV, 55U71",
+    brand: "IFFALCON",
+    rating: 4.7,
+    offerprice: 24990.0,
+    mrp: 70990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Itel-G4330IE-Television-493072590-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDM2NXxpbWFnZS9qcGVnfGltYWdlcy9oNmIvaDQyLzk4OTU1NjY1MDgwNjIuanBnfDc4NDUxNjU3MGMyYmQ2ZjIwNjIxOThlZTI0ZTRlYmIzZmI1YWUwMzc4NzZkYjhhNTcwMzI3OGMwNjk2ZGZiMjM",
+    title: "Itel 108 cm (43 inch) Full HD Android Smart LED TV, G4330IE",
+    brand: "ITEL",
+    rating: 4.1,
+    offerprice: 15990.0,
+    mrp: 40000.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Hisense-55A7H-LED-Smart-TVs-493179250-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4NDA5NXxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDIzLzk5MTUxMzAwODU0MDYuanBnfDgzZjgwNzBiNDZmZmM5ZDk4MzFhZDgyZjhjYjdkNzg3ZjNhM2U1MGM4OTdjOWNiMzhjNmNlZGVkOWYzNzQyZjk",
+    title: "Hisense 139 cm (55 inch) Ultra HD (4K) LED Smart Google TV, 55A7H",
+    brand: "HISENSE",
+    rating: 4.8,
+    offerprice: 42990.0,
+    mrp: 60990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/IFFALCON-43F2A-Television-492338468-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MTMwNXxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaDg5Lzk1ODA4NzU2Nzc3MjYuanBnfDk3ZmIwN2RjZTUxNTA1YTBmMzk5MWY4YjA3OGJmYjJkNGQ3MDFjNmJhNjU1Yjk5MWRhZTNmNTI3ZTE0ZmExNTc",
+    title:
+      "IFFALCON 109.22 cm (43 inch) Full HD LED Smart TV, 43F2A (Android 8.0, Dolby Decoder Technology for Enhance Audio-Quality)",
+    brand: "IFFALCON",
+    rating: 4.9,
+    offerprice: 15999.0,
+    mrp: 45990.0,
+    category: "Telivision",
+  },
+];
+
+var TvProCra2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Hisense-55A7H-LED-Smart-TVs-493179250-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4NDA5NXxpbWFnZS9qcGVnfGltYWdlcy9oNTEvaDIzLzk5MTUxMzAwODU0MDYuanBnfDgzZjgwNzBiNDZmZmM5ZDk4MzFhZDgyZjhjYjdkNzg3ZjNhM2U1MGM4OTdjOWNiMzhjNmNlZGVkOWYzNzQyZjk",
+    title: "Hisense 139 cm (55 inch) Ultra HD (4K) LED Smart Google TV, 55A7H",
+    brand: "HISENSE",
+    rating: 4.5,
+    offerprice: 42990.0,
+    mrp: 69990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/IFFALCON-43F2A-Television-492338468-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MTMwNXxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaDg5Lzk1ODA4NzU2Nzc3MjYuanBnfDk3ZmIwN2RjZTUxNTA1YTBmMzk5MWY4YjA3OGJmYjJkNGQ3MDFjNmJhNjU1Yjk5MWRhZTNmNTI3ZTE0ZmExNTc",
+    title:
+      "IFFALCON 109.22 cm (43 inch) Full HD LED Smart TV, 43F2A (Android 8.0, Dolby Decoder Technology for Enhance Audio-Quality)",
+    brand: "IFFALCON",
+    rating: 4.9,
+    offerprice: 15999.0,
+    mrp: 45990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/TCL-55C725-LED-TV-493179298-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4ODM0OHxpbWFnZS9qcGVnfGltYWdlcy9oZmIvaGM5Lzk5MDc3NjczNzc5NTAuanBnfGRjNTA4YzUwYTllZWU2MzZlNjExMzMwNDIxOWFkMTk0ZGU3OWE1Njc3ZGNlZDM1MDczZGMzYWUwM2I0NDc0MzE",
+    title: "TCL 139.7 cm (55 inch) QLED Ultra HD (4K) Smart TV, C725 55C725",
+    brand: "TCL",
+    rating: 5.0,
+    offerprice: 42999.0,
+    mrp: 95990.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/ONEPLUS-43Y1-TV-491895011-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTQ5NHxpbWFnZS9qcGVnfGltYWdlcy9oOGQvaDZmLzk4MTAwNTg1NzU5MDIuanBnfDRlNjk2MTc0MjNiODNmYmZkNmVjNWQwMjM1N2QxMzExOWFkNzcyOTNiY2M3ODU0ZmUyN2Y5OWEyNjExNzFkYTY",
+    title: "ONEPLUS 108 cm (43 inch) Full HD Smart LED TV, 43Y1",
+    brand: "ONEPLUS",
+    rating: 4.2,
+    offerprice: 24999.0,
+    mrp: 49000.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-43UHDX7XPRO-Television-492166143-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MzM0NHxpbWFnZS9qcGVnfGltYWdlcy9oMWIvaGY4Lzk1MTE0NzE2Nzc0NzAuanBnfGU5OWFmNDFlYTcwYTllZTU4ZTYzMTMxNjgzOWZkMjFiNDI2MzY5ZDU2ZDhhOTY3ZWIyNGU3ZTQzMGEwMzMxYmQ",
+    title:
+      "Kodak 108 cm (43 inch) Ultra HD (4K) LED Smart TV, 7XPRO Series 43UHDX7XPRO, Powerful 24 Watts Speaker, Multiple Connectivity Option",
+    brand: "KODAK",
+    rating: 4.6,
+    offerprice: 22990.0,
+    mrp: 37000.0,
+    category: "Telivision",
+  },
+];
+
 // for sticky navbar
 
 window.onscroll = function () {
@@ -130,41 +243,45 @@ function myFunction() {
   }
 }
 
-//top crousal 5product appand
+//top crousal earphone 5product appand
 let p1 = document.querySelector("#procra1");
-let p2 = document.querySelector("#procra2");
-
 displaycard(proCra1, p1);
+let p2 = document.querySelector("#procra2");
 displaycard(proCra2, p2);
 
+//top crousal of Telivisions 5 append in one slide
+let t1 = document.querySelector("#proTeli1");
+displaycard(TvProCra1, t1);
+let t2 = document.querySelector("#proTeli2");
+displaycard(TvProCra2, t2);
+
 function displaycard(data, box) {
-  for (let i = 0; i < data.length; i++) {
+  data.forEach((elem) => {
     let card = document.createElement("div");
 
     let image = document.createElement("img");
-    image.src = data[i].image;
+    image.src = elem.image;
 
     let title = document.createElement("p");
-    title.innerText = data[i].title;
+    title.innerText = elem.title;
 
     let brand = document.createElement("h6");
-    brand.innerHTML = data[i].brand;
+    brand.innerHTML = elem.brand;
 
     let rating = document.createElement("h6");
-    rating.innerHTML = "Rating - " + data[i].rating + " ⭐";
+    rating.innerHTML = "Rating - " + elem.rating + " ⭐";
 
     let offerprice = document.createElement("h5");
-    offerprice.innerHTML = "Deal Price - ₹" + data[i].offerprice;
+    offerprice.innerHTML = "Deal Price - ₹" + elem.offerprice;
 
     let mrp = document.createElement("h6");
-    mrp.innerHTML = "M.R.P. - ₹" + data[i].mrp;
+    mrp.innerHTML = "M.R.P. - ₹" + elem.mrp;
 
     let discount = document.createElement("h6");
-    discount.innerHTML =
-      "You Save - ₹" + Number(data[i].mrp - data[i].offerprice);
+    discount.innerHTML = "You Save - ₹" + Number(elem.mrp - elem.offerprice);
 
     let category = document.createElement("h6");
-    category.innerHTML = "Category - " + data[i].category;
+    category.innerHTML = "Category - " + elem.category;
 
     let offerdiv = document.createElement("div");
     offerdiv.classList.add("offerdiv");
@@ -181,5 +298,5 @@ function displaycard(data, box) {
       offerdiv
     );
     box.append(card);
-  }
+  });
 }

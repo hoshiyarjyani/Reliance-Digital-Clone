@@ -256,3 +256,40 @@ header {
 #crousaliphone img {
   width: 100%;
 }
+
+
+/* brand promise flex*/
+.brandpromiseH4{
+    text-align: center;
+    color: #003394;
+}
+.brandpromiseH4 h4{
+    font-size: 25px;
+    margin: 9px 0;
+}
+#promisebrand H5{
+    font-size: 17PX;
+    color: #003394;
+    margin-bottom: 0;
+}
+
+#promisebrand p{
+    font-size: 17px;
+    margin-top: 0;
+}
+#promisebrand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+text-align: center;
+}
+#promisebrand div{
+    width: 24%;
+    background-color: #F7F7F7;
+    height: 5rem;
+    border-radius: 8px;
+}
+#promisebrand img{
+    width: 12%;
+    margin-top: 0.3rem;
+}

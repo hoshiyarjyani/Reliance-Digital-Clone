@@ -257,171 +257,188 @@ header {
   width: 100%;
 }
 
-
 /* brand promise flex*/
-.brandpromiseH4{
-    text-align: center;
-    color: #003394;
+.brandpromiseH4 {
+  text-align: center;
+  color: #003394;
 }
-.brandpromiseH4 h4{
-    font-size: 25px;
-    margin: 9px 0;
+.brandpromiseH4 h4 {
+  font-size: 25px;
+  margin: 9px 0;
 }
-#promisebrand H5{
-    font-size: 17PX;
-    color: #003394;
-    margin-bottom: 0;
-}
-
-#promisebrand p{
-    font-size: 17px;
-    margin-top: 0;
-}
-#promisebrand{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-text-align: center;
-}
-#promisebrand div{
-    width: 24%;
-    background-color: #F7F7F7;
-    height: 5rem;
-    border-radius: 8px;
-}
-#promisebrand img{
-    width: 12%;
-    margin-top: 0.3rem;
+#promisebrand H5 {
+  font-size: 17px;
+  color: #003394;
+  margin-bottom: 0;
 }
 
-/* monitor carousal flex */
-
-#monitor{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+#promisebrand p {
+  font-size: 17px;
+  margin-top: 0;
 }
-#monitorcarousal{
-    width: 73%;
+#promisebrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
 }
-
-#monitors1,#monitors2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+#promisebrand div {
+  width: 24%;
+  background-color: #f7f7f7;
+  height: 5rem;
+  border-radius: 8px;
 }
-#monitors1>div ,#monitors2>div{
-    width: 16%;
-
-}
-#monitors1>div>div ,#monitors2>div>div{
-    margin-top: 10px;
-}
-#monitors1 img,#monitors2 img{
-    width: 100%;
+#promisebrand img {
+  width: 12%;
+  margin-top: 0.3rem;
 }
 
+/* monitor carousal flex  & dailyuse*/
 
-#monitorcarousal img{
-    width: 100%;
+#monitor,
+#dailyuse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#monitorcarousal,
+#dailyusecarousal {
+  width: 73%;
 }
 
-#monitorcarousalside{
-    width: 24%;
+#monitors1,
+#monitors2,
+#dailyuse1,
+#dailyuse2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
-#monitorcarousalside img{
-    width:100% ;
+#monitors1 > div,
+#monitors2 > div,
+#dailyuse1 > div,
+#dailyuse2 > div {
+  width: 16%;
+}
+#monitors1 > div > div,
+#monitors2 > div > div,
+#dailyuse1 > div > div,
+#dailyuse2 > div > div {
+  margin-top: 10px;
+}
+#monitors1 img,
+#monitors2 img,
+#dailyuse1 img,
+#dailyuse2 img {
+  width: 100%;
 }
 
+#monitorcarousal img,
+#dailyusecarousal img {
+  width: 100%;
+}
 
-#monitorcarousal p {
-    color: #003380;
-    font-size: 17px;
-    height: 2.6em;
-    line-height: 1.4em;
-    margin-right: 20px;
-    overflow: hidden;
-  }
-  
-  #monitorcarousal img:hover {
-    width: 106%;
-  }
-  #monitorcarousal h6 {
-    font-size: 15px;
-    margin: 2px;
-  }
+#monitorcarousalside,
+#dailyusecarousalside {
+  width: 24%;
+}
+#monitorcarousalside img,
+#dailyusecarousalside img {
+  width: 100%;
+}
 
-  #monitorcarousal h5 {
-    font-size: 18px;
-    font-weight: 700;
-    margin:4px 0;
-  }
+#monitorcarousal p,
+#dailyusecarousal p {
+  color: #003380;
+  font-size: 17px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
 
-  
+#monitorcarousal img:hover,
+#dailyusecarousal img:hover {
+  width: 106%;
+}
+#monitorcarousal h6,
+#dailyusecarousal h6 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+#monitorcarousal h5,
+#dailyusecarousal h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
 /* 25% pic of iphone and iphone14 75%  carousal flex */
 
-#iphone14{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100%;
+#iphone14 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
 }
-#iphone14carousal{
-    width: 73%;
-}
-
-#iphone14-1,#iphone14-2{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-#iphone14-1>div ,#iphone14-2>div{
-    width: 16%;
-
-}
-#iphone14-1>div>div ,#iphone14-2>div>div{
-    margin-top: 10px;
-}
-#iphone14-1 img,#iphone14-2 img{
-    width: 100%;
+#iphone14carousal {
+  width: 73%;
 }
 
-
-#iphone14carousal img{
-    width: 100%;
+#iphone14-1,
+#iphone14-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#iphone14-1 > div,
+#iphone14-2 > div {
+  width: 16%;
+}
+#iphone14-1 > div > div,
+#iphone14-2 > div > div {
+  margin-top: 10px;
+}
+#iphone14-1 img,
+#iphone14-2 img {
+  width: 100%;
 }
 
-#iphone14carousalside{
-    width: 24%;
-    margin-top: 0.7rem;
-}
-#iphone14carousalside img{
-    width:100% ;
+#iphone14carousal img {
+  width: 100%;
 }
 
+#iphone14carousalside {
+  width: 24%;
+  margin-top: 0.7rem;
+}
+#iphone14carousalside img {
+  width: 100%;
+}
 
 #iphone14carousal p {
-    color: #003380;
-    font-size: 17px;
-    height: 2.6em;
-    line-height: 1.4em;
-    margin-right: 20px;
-    overflow: hidden;
-  }
-  
-  #iphone14carousal img:hover {
-    width: 106%;
-  }
-  #iphone14carousal h6 {
-    font-size: 15px;
-    margin: 2px;
-  }
+  color: #003380;
+  font-size: 17px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
+}
 
-  #iphone14carousal h5 {
-    font-size: 18px;
-    font-weight: 700;
-    margin:4px 0;
-  }
+#iphone14carousal img:hover {
+  width: 106%;
+}
+#iphone14carousal h6 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+#iphone14carousal h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 4px 0;
+}

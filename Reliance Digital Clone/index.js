@@ -407,45 +407,137 @@ var iphone1 = [
   },
 ];
 //iphone14 crousal 2 data
-var iphone2=[
-    {
-        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
-        title:"Apple iPhone 14 Plus 128 GB, Blue",
-        brand:"APPLE",
-        rating:4.9,
-        offerprice:89990.00,
-        mrp:95999.00,
-        category:"Mobile",
-    },
-    {
-        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzEyMHxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaGRhLzk4OTA1MjA5MjQxOTAuanBnfDVjZGQ3NzdkZmU4NmI4MzBjNmM3ODJjMTI2MWFiMTcxM2ViNzQ3ODE2YzA1MjIwZTliZGNiZmIxYWVmYWQyYzY",
-        title:"Apple iPhone 14 Plus 128 GB, Midnight",
-        brand:"APPLE",
-        rating:4.8,
-        offerprice:109990.00,
-        mrp:125999.00,
-        category:"Mobile",
-    },
-    {
-        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
-        title:"Apple iPhone 14 Plus 128 GB, Blue",
-        brand:"APPLE",
-        rating:4.9,
-        offerprice:109990.00,
-        mrp:125999.00,
-        category:"Mobile",
-    },
-    {
-        image:"https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
-        title:"Apple iPhone 14 Plus 128 GB, Blue",
-        brand:"APPLE",
-        rating:5.0,
-        offerprice:119990.00,
-        mrp:123999.00,
-        category:"Mobile",
-    }
+var iphone2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+    title: "Apple iPhone 14 Plus 128 GB, Blue",
+    brand: "APPLE",
+    rating: 4.9,
+    offerprice: 89990.0,
+    mrp: 95999.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177759-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzEyMHxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaGRhLzk4OTA1MjA5MjQxOTAuanBnfDVjZGQ3NzdkZmU4NmI4MzBjNmM3ODJjMTI2MWFiMTcxM2ViNzQ3ODE2YzA1MjIwZTliZGNiZmIxYWVmYWQyYzY",
+    title: "Apple iPhone 14 Plus 128 GB, Midnight",
+    brand: "APPLE",
+    rating: 4.8,
+    offerprice: 109990.0,
+    mrp: 125999.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+    title: "Apple iPhone 14 Plus 128 GB, Blue",
+    brand: "APPLE",
+    rating: 4.9,
+    offerprice: 109990.0,
+    mrp: 125999.0,
+    category: "Mobile",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDEwNHxpbWFnZS9qcGVnfGltYWdlcy9oOWIvaGFmLzk4OTA1NDE5NjEyNDYuanBnfGEwNTZiM2Y3MWY1YmFmOTU3MDI2MjUxM2E0NTI0NTIwMzFhMTE5Y2NjNzQ2MWY1MWI5ZjVmN2JjMmRjZjY3YTU",
+    title: "Apple iPhone 14 Plus 128 GB, Blue",
+    brand: "APPLE",
+    rating: 5.0,
+    offerprice: 119990.0,
+    mrp: 123999.0,
+    category: "Mobile",
+  },
 ];
-
+//daily use products slide-1
+var dailyuse1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Bajaj-740076-INDUCTIONCOOKTOPS-492573223-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjMyNXxpbWFnZS9qcGVnfGltYWdlcy9oY2IvaDg2Lzk3MzQ4NjQwNzY4MzAuanBnfDQ5YjU1ZmNjZWU4ZjIwNzMxMjM5ZWM5MTY5YWMwYWJlZDlhZGI5M2IwZThkYjAwYzdjNGU2Y2VlZjljMzJlZTI",
+    title:
+      "Bajaj Majesty Slim 2100-Watt Induction Cooktop with 9 Auto Cook Menus (Black)",
+    brand: "BAJAJ",
+    rating: 4.3,
+    offerprice: 3799.0,
+    mrp: 6100.0,
+    category: "Kitchen",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Vega-VHTH19-Epilators-491902978-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTI0NXxpbWFnZS9qcGVnfGltYWdlcy9oZGMvaDQyLzk0MTM1MDAzNzA5NzQuanBnfGIwZWRlMDQ4NWNmY2Y0NTZjODZiZTIwMmNiYWZmYjUxOTY0OGQzNTQwZjRiMTVlMDU3ZDFkYjI4YmEwM2E0MGI",
+    title: "Vega T3 VHTH-19 Beard Hair Trimmer",
+    brand: "VEGA",
+    rating: 4.6,
+    offerprice: 1025.0,
+    mrp: 1299.0,
+    category: "Dailyuse",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Philips-HL7707-00-Mixer-Grinder-491472892-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNTI3MXxpbWFnZS9qcGVnfGltYWdlcy9oMmEvaDFjLzkyOTI2ODc1MDc0ODYuanBnfDkwMmViNmViM2U1N2ExYjJmZjhiNDg0MzBhMWE1NzAwYWE1MGRkNWNkM2JlYTI4NWE2NWJkOTliYjMzZDMxNmM",
+    title:
+      "Phillips Avance Collection HL7707/00 750-Watt Mixer Grinder with 4 Jars, PowerChop technology (Black)",
+    brand: "PHILLIPS",
+    rating: 4.5,
+    offerprice: 9199.0,
+    mrp: 11995.0,
+    category: "Kitchen",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Philips-GC523-60-Specialty-Appliances-491433174-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NzIwfGltYWdlL2pwZWd8aW1hZ2VzL2g5ZC9oMjUvOTIxNzA2Mzg0NTkxOC5qcGd8YTYwMDdmNjVkZGZlMTMyOTJhNjU1NTI4NDIyNjA2ZmVhMDYxN2Y0NTQzMGJhN2I5Yjg1YzdlY2E4NDJhN2YzNQ",
+    title: "Philips EasyTouch Plus GC523/60 Garment Steamer",
+    brand: "PHILLIPS",
+    rating: 4.7,
+    offerprice: 7999.0,
+    mrp: 9995.0,
+    category: "Dailyuse",
+  },
+];
+//daily use products slide-2
+var dailyuse2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Philips-BHH880-Hair-Dryers-and-Stylers-491539222-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MzA0NnxpbWFnZS9qcGVnfGltYWdlcy9oMjcvaGRhLzkzMzQ0MTgxNDUzMTAuanBnfDE4YTM1ODhiOTIwZmUxMDJlYzIxNzEzNjkyOGE2MjJlMmM2NDg0MjM4MjkyOGMyM2I3Zjg5Y2YyYmRkNDY0Mjg",
+    title: "Philips BHH880 Hair Straightening Brush (Black)",
+    brand: "PHILLIPS",
+    rating: 4.8,
+    offerprice: 3499.0,
+    mrp: 3895.0,
+    category: "Dailyuse",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/BPL-BFCB-0602BR-Ceiling-Fan-491902865-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYTEvaDliLzk2MjMxNzU3OTA2MjIuanBnfGFmNmU4ZjJiN2FlODE4MDg3NTg5OTJjMzBkM2JiNzY4YzZmMWRhZTE4ZDg0MGNkNDQzODMxYjMyYzI0OWU3NTY",
+    title: "BPL BFCB-0602BR 600 mm Basic Ceiling Fan, Brown",
+    brand: "BPL",
+    rating: 4.5,
+    offerprice: 1140.0,
+    mrp: 1455.0,
+    category: "Kitchen",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Bajaj-740076-INDUCTIONCOOKTOPS-492573223-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjMyNXxpbWFnZS9qcGVnfGltYWdlcy9oY2IvaDg2Lzk3MzQ4NjQwNzY4MzAuanBnfDQ5YjU1ZmNjZWU4ZjIwNzMxMjM5ZWM5MTY5YWMwYWJlZDlhZGI5M2IwZThkYjAwYzdjNGU2Y2VlZjljMzJlZTI",
+    title:
+      "Bajaj Majesty Slim 2100-Watt Induction Cooktop with 9 Auto Cook Menus (Black)",
+    brand: "BAJAJ",
+    rating: 4.8,
+    offerprice: 3799.0,
+    mrp: 4200.0,
+    category: "Kitchen",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Vega-VHTH19-Epilators-491902978-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTI0NXxpbWFnZS9qcGVnfGltYWdlcy9oZGMvaDQyLzk0MTM1MDAzNzA5NzQuanBnfGIwZWRlMDQ4NWNmY2Y0NTZjODZiZTIwMmNiYWZmYjUxOTY0OGQzNTQwZjRiMTVlMDU3ZDFkYjI4YmEwM2E0MGI",
+    title: "NOVA T3 VHTH-19 Beard Hair Trimmer",
+    brand: "NOVA",
+    rating: 4.9,
+    offerprice: 799.0,
+    mrp: 1099.0,
+    category: "Dailyuse",
+  },
+];
 
 // for sticky navbar
 
@@ -488,6 +580,11 @@ displaycard(iphone1, i1);
 let i2 = document.querySelector("#iphone14-2");
 displaycard(iphone2, i2);
 
+//crousal of dailyuse applinces 4 append in one slide
+let d1 = document.querySelector("#dailyuse1");
+displaycard(dailyuse1, d1);
+let d2 = document.querySelector("#dailyuse2");
+displaycard(dailyuse2, d2);
 
 function displaycard(data, box) {
   data.forEach((elem) => {

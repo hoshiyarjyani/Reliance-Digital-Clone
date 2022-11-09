@@ -564,3 +564,19 @@ header {
 .playstore img{
     width: 28%;
 }
+.disclaimer{
+    background-color: #0A244A;
+    margin: auto;
+    text-align: center;
+    color:white;
+    padding:0.5rem 0;
+}
+.disclaimer h3{
+    font-size: 21px;
+}
+.line{
+    text-decoration: underline;
+}
+.thin{
+    color: gray;
+}

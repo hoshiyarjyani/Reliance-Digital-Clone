@@ -538,7 +538,7 @@ var dailyuse2 = [
     category: "Dailyuse",
   },
 ];
-
+//watch1 slide cousal product
 var watch1 = [
   {
     image:
@@ -585,7 +585,7 @@ var watch1 = [
     category: "Watch",
   },
 ];
-
+//watch2 slide cousal product
 var watch2 = [
   {
     image:
@@ -631,6 +631,99 @@ var watch2 = [
     category: "Watch",
   },
 ];
+//kodak TV crousal product -1
+var tv1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-32HDX7XPRO-Televisions-492166141-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjIzNHxpbWFnZS9qcGVnfGltYWdlcy9oZmQvaDgwLzk4OTQ2ODczNDI2MjIuanBnfDAxNzdkZTU5YWY0ZjdkMWFhN2NhM2E3ZDY4MjkwZjIzMGNkYjIzYzNkMDkyMTZlNWU3N2ViZTA2YTE4YzcxMzc",
+    title:
+      "Kodak 80 cm (32 inch) HD Ready LED Smart TV, 7XPRO Series 32HDX7XPRO, Quad Core Processor, Built-in Chromecast",
+    brand: "KODAK",
+    rating: 4.2,
+    offerprice: 9899.0,
+    mrp: 12999.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-32SE5001BL-Television-493285971-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNzcwNnxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaGQxLzk4ODYzNjMzMjAzNTAuanBnfDVkOTlkYmQwMzQwOTU0ZTJhYmQzYzc5MTI5Y2QzYTkzN2EzNjliNzU3YWQyOTU0MGU4MzYyNjdmMGFkNjdmYWY",
+    title:
+      "Kodak 80 cm (32 inch) HD Ready Smart TV, Special Edition 32SE5001BL, Black",
+    brand: "KODAK",
+    rating: 4.9,
+    offerprice: 8568.0,
+    mrp: 9999.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-43UHDX7XPRO-Television-492166143-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3MzM0NHxpbWFnZS9qcGVnfGltYWdlcy9oMWIvaGY4Lzk1MTE0NzE2Nzc0NzAuanBnfGU5OWFmNDFlYTcwYTllZTU4ZTYzMTMxNjgzOWZkMjFiNDI2MzY5ZDU2ZDhhOTY3ZWIyNGU3ZTQzMGEwMzMxYmQ",
+    title:
+      "Kodak 108 cm (43 inch) Ultra HD (4K) LED Smart TV, 7XPRO Series 43UHDX7XPRO, Powerful 24 Watts Speaker, Multiple Connectivity Option",
+    brand: "KODAK",
+    rating: 4.6,
+    offerprice: 15999.0,
+    mrp: 21895.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-32HDX900S-Televisions-491431274-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4MjQ1MHxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaGIxLzkzMjQ0NzM5NzQ4MTQuanBnfGE2YmQwOWViYzM4ZDQ2ZTczMjE3MWNkZTU4ZjY0YWU4YmUzMjQ2NzM5MGM3Y2NjZjBjNzk4MjdmZjEzNTJlZGE",
+    title: "Kodak 80 cm (32 inch) HD Ready LED TV, 32HDX900s",
+    brand: "KODAK",
+    rating: 4.4,
+    offerprice: 7499.0,
+    mrp: 8956.0,
+    category: "Telivision",
+  },
+];
+//kodak TV crousal product -2
+var tv2 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-32HDX900S-Televisions-491431274-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4MjQ1MHxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaGIxLzkzMjQ0NzM5NzQ4MTQuanBnfGE2YmQwOWViYzM4ZDQ2ZTczMjE3MWNkZTU4ZjY0YWU4YmUzMjQ2NzM5MGM3Y2NjZjBjNzk4MjdmZjEzNTJlZGE",
+    title: "Kodak 80 cm (32 inch) HD Ready LED TV, 32HDX900s",
+    brand: "KODAK",
+    rating: 4.9,
+    offerprice: 8900.0,
+    mrp: 9989.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-43CA2022-Television-492166175-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2ODUwMnxpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDEwLzk1MTIxMDYyMjk3OTAuanBnfDgwNTMwNDExYzI5MjkyNDJkZmZlMTI0ODAwYmM4OGNlZTZiM2U3MWQzM2FhNWI1ZDJmOGE5ZDJhYzg3ZjkxZGM",
+    title:
+      "Kodak 108 cm (43 inch) Ultra HD (4K) Premium Android TV with Dolby Digital Plus and DTS TruSurround, CA Series 43CA2022",
+    brand: "KODAK",
+    rating: 4.4,
+    offerprice: 20999.0,
+    mrp: 25000.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-50CAPRO5066-Televisions-492579288-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyOTc1M3xpbWFnZS9qcGVnfGltYWdlcy9oYjYvaDhmLzk4OTQ3MjA3NjU5ODIuanBnfGYxYzA1M2Y2MmZiZjIxZGM3MmU0YTQ2NTBjNTg1ZGE0M2Y2NGM3NGZjYjNhZTUzZGMxYjhiMzY1MjVlZGUxMmE",
+    title:
+      "Kodak 126 cm (50 inch) Ultra HD (4K) Smart LED TV, CAPRO Series 50CAPRO5066",
+    brand: "KODAK",
+    rating: 4.9,
+    offerprice: 24999.0,
+    mrp: 35654.0,
+    category: "Telivision",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Kodak-40FHDX7XPRO-Televisions-492166142-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNTgwM3xpbWFnZS9qcGVnfGltYWdlcy9oMmMvaDhjLzk4OTQ2ODg5ODEwMjIuanBnfDM0YjhiY2Q5ZTVkYThlZGM5MzRlNTZlOWM1YWU0Mjk2OGJlYWE2YTQwMGQwNjRkZGFjYWQ2NjU5N2JmZmY0OGQ",
+    title:
+      "Kodak 102 cm (40 inch) Full HD LED Smart TV, 7XPRO Series 40FHDX7XPRO, Built-in Chromecast, Quad Core Processor",
+    brand: "KODAK",
+    rating: 5.0,
+    offerprice: 15999.0,
+    mrp: 24000.0,
+    category: "Telivision",
+  },
+];
+
 // for sticky navbar
 
 window.onscroll = function () {
@@ -684,6 +777,12 @@ displaycard(watch1, w1);
 let w2 = document.querySelector("#watch2");
 displaycard(watch2, w2);
 
+
+//crousal of kodak tv 4 append in one slide
+let kodaktv1 = document.querySelector("#tv1");
+displaycard(tv1, kodaktv1);
+let kodaktv2 = document.querySelector("#tv2");
+displaycard(tv2, kodaktv2);
 
 function displaycard(data, box) {
   data.forEach((elem) => {

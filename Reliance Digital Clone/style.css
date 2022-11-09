@@ -293,24 +293,28 @@ header {
   margin-top: 0.3rem;
 }
 
-/* monitor carousal flex  & dailyuse*/
+/* monitor carousal flex  & dailyuse & kodak tv*/
 
 #monitor,
-#dailyuse {
+#dailyuse,
+#tv {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
 }
 #monitorcarousal,
-#dailyusecarousal {
+#dailyusecarousal,
+#tvcarousal {
   width: 73%;
 }
 
 #monitors1,
 #monitors2,
 #dailyuse1,
-#dailyuse2 {
+#dailyuse2,
+#tv1,
+#tv2 {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -319,38 +323,48 @@ header {
 #monitors1 > div,
 #monitors2 > div,
 #dailyuse1 > div,
-#dailyuse2 > div {
+#dailyuse2 > div,
+#tv1 > div,
+#tv2 > div {
   width: 16%;
 }
 #monitors1 > div > div,
 #monitors2 > div > div,
 #dailyuse1 > div > div,
-#dailyuse2 > div > div {
+#dailyuse2 > div > div,
+#tv1 > div > div,
+#tv2 > div > div {
   margin-top: 10px;
 }
 #monitors1 img,
 #monitors2 img,
 #dailyuse1 img,
-#dailyuse2 img {
+#dailyuse2 img,
+#tv1 img,
+#tv2 img {
   width: 100%;
 }
 
 #monitorcarousal img,
-#dailyusecarousal img {
+#dailyusecarousal img,
+#tvcarousal img {
   width: 100%;
 }
 
 #monitorcarousalside,
-#dailyusecarousalside {
+#dailyusecarousalside,
+#tvcarousalside {
   width: 24%;
 }
 #monitorcarousalside img,
-#dailyusecarousalside img {
+#dailyusecarousalside img,
+#tvcarousalside img {
   width: 100%;
 }
 
 #monitorcarousal p,
-#dailyusecarousal p {
+#dailyusecarousal p,
+#tvcarousal p {
   color: #003380;
   font-size: 17px;
   height: 2.6em;
@@ -360,23 +374,26 @@ header {
 }
 
 #monitorcarousal img:hover,
-#dailyusecarousal img:hover {
+#dailyusecarousal img:hover,
+#tvcarousal img:hover {
   width: 106%;
 }
 #monitorcarousal h6,
-#dailyusecarousal h6 {
+#dailyusecarousal h6,
+#tvcarousal h6 {
   font-size: 15px;
   margin: 2px;
 }
 
 #monitorcarousal h5,
-#dailyusecarousal h5 {
+#dailyusecarousal h5,
+#tvcarousal h5 {
   font-size: 18px;
   font-weight: 700;
   margin: 4px 0;
 }
 
-/* 25% pic of iphone and iphone14 75%  carousal flex */
+/* 25% pic of iphone&watch and iphone14 & smartwatch 75%  carousal flex  */
 
 #iphone14,
 #watch {

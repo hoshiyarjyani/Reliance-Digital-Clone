@@ -228,24 +228,134 @@ var TvProCra2 = [
 
 // category 8 pics flex in two row
 var categoryPics = [
-    {image:"https://www.reliancedigital.in/medias/Televisions-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w4MTU1NXxpbWFnZS9qcGVnfGltYWdlcy9oNDEvaDYwLzk5MTM3Nzc1MjA2NzAuanBnfGIxMjNhZGFhN2FiYzVmMTRmNjExNDkyOTliNjZkYmNhNjk5NDI5Y2ZkODU2MmNjZmViMmQ3N2FlY2EyZDZjYjk"},
-    {image:"https://www.reliancedigital.in/medias/Smartwatches-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0OTAwNHxpbWFnZS9qcGVnfGltYWdlcy9oNzUvaDMxLzk5MTM3Nzc2NTE3NDIuanBnfDc0ZjgyYjQzZjcxNGYxMWUxMDdkOTk1Y2RlNTg2MWJlMTdmMmJlYTcwNmUxN2NhNTAzM2JmZTQxNmFjNjgzYjU"},
-    {image:"https://www.reliancedigital.in/medias/Washing-Machines-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NDcwMHxpbWFnZS9qcGVnfGltYWdlcy9oNWIvaDUwLzk5MTM3Nzc3MTcyNzguanBnfGMyNWJhNDNiMTFkMjE4YmQ2OGRiMzdkMGIxNmZmZDhiYzViMTBjY2I1ZDllYzAyMWFjN2FlZTU1ZGVmMDk4MmU"},
-    {image:"https://www.reliancedigital.in/medias/Printers-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjMwNnxpbWFnZS9qcGVnfGltYWdlcy9oZWIvaDRjLzk5MTM3Nzc1ODYyMDYuanBnfGZkMDA2YTU3ZTUxMGNjZTAwNjQxNmE3ZGZjNjg4NDI4NTE1ZDBhZWJhMThiZjMxMTJkNjdmMTliOWQ5ODdiNGY"},
-    {image:"https://www.reliancedigital.in/medias/5G-smartphones-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjI5MXxpbWFnZS9qcGVnfGltYWdlcy9oYTkvaDMwLzk5MTYxNzg1NjMxMDIuanBnfGNjMTViZWY2NDViY2YyYmI4MTc3YzhlNWU3NDViYzAwOTAzYWRiYmRmNzI2YzYzYTcwYTA5ZjVlNjQxZWJkYmQ"},
-    {image:"https://www.reliancedigital.in/medias/True-Wireless-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oODAvaDljLzk5MTM3NzcyNTg1MjYuanBnfGY3MDIxZDZlYTBhMjEwYjQ4NGIzMmQwZjdjMzQ2M2FhYzIwYWE0NGE4MzFmYjRlZjQwNzFlZjk2NWMwMzYxN2Y"},
-    {image:"https://www.reliancedigital.in/medias/Gaming-laptops-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NzM3MHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaGRlLzk5MTM3Nzc0NTUxMzQuanBnfDYwNGRmMTk1MGM3YmVlMjc5MTkzYjRmNTgzMWNjYjZmOGM3NTdhMzY5Njk1OTEwYWVkYWVhOTUzYTk2ZTFjZWY"},
-    {image:"https://www.reliancedigital.in/medias/Winter-Appliances-Small-banners.jpg?context=bWFzdGVyfGltYWdlc3w2ODA0M3xpbWFnZS9qcGVnfGltYWdlcy9oYTUvaDhmLzk5MTM3NzczMjQwNjIuanBnfDdjMTE5YzUzNjcyODZiNDljNGJlNDMzZTNkNGI5Nzg2ZjlhOTg0YmFhYTViOTZmOTFkNmY1MWRlZGQ4NWY5ZDY"}
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Televisions-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w4MTU1NXxpbWFnZS9qcGVnfGltYWdlcy9oNDEvaDYwLzk5MTM3Nzc1MjA2NzAuanBnfGIxMjNhZGFhN2FiYzVmMTRmNjExNDkyOTliNjZkYmNhNjk5NDI5Y2ZkODU2MmNjZmViMmQ3N2FlY2EyZDZjYjk",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Smartwatches-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0OTAwNHxpbWFnZS9qcGVnfGltYWdlcy9oNzUvaDMxLzk5MTM3Nzc2NTE3NDIuanBnfDc0ZjgyYjQzZjcxNGYxMWUxMDdkOTk1Y2RlNTg2MWJlMTdmMmJlYTcwNmUxN2NhNTAzM2JmZTQxNmFjNjgzYjU",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Washing-Machines-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NDcwMHxpbWFnZS9qcGVnfGltYWdlcy9oNWIvaDUwLzk5MTM3Nzc3MTcyNzguanBnfGMyNWJhNDNiMTFkMjE4YmQ2OGRiMzdkMGIxNmZmZDhiYzViMTBjY2I1ZDllYzAyMWFjN2FlZTU1ZGVmMDk4MmU",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Printers-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjMwNnxpbWFnZS9qcGVnfGltYWdlcy9oZWIvaDRjLzk5MTM3Nzc1ODYyMDYuanBnfGZkMDA2YTU3ZTUxMGNjZTAwNjQxNmE3ZGZjNjg4NDI4NTE1ZDBhZWJhMThiZjMxMTJkNjdmMTliOWQ5ODdiNGY",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/5G-smartphones-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NjI5MXxpbWFnZS9qcGVnfGltYWdlcy9oYTkvaDMwLzk5MTYxNzg1NjMxMDIuanBnfGNjMTViZWY2NDViY2YyYmI4MTc3YzhlNWU3NDViYzAwOTAzYWRiYmRmNzI2YzYzYTcwYTA5ZjVlNjQxZWJkYmQ",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/True-Wireless-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oODAvaDljLzk5MTM3NzcyNTg1MjYuanBnfGY3MDIxZDZlYTBhMjEwYjQ4NGIzMmQwZjdjMzQ2M2FhYzIwYWE0NGE4MzFmYjRlZjQwNzFlZjk2NWMwMzYxN2Y",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Gaming-laptops-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w1NzM3MHxpbWFnZS9qcGVnfGltYWdlcy9oYTIvaGRlLzk5MTM3Nzc0NTUxMzQuanBnfDYwNGRmMTk1MGM3YmVlMjc5MTkzYjRmNTgzMWNjYjZmOGM3NTdhMzY5Njk1OTEwYWVkYWVhOTUzYTk2ZTFjZWY",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Winter-Appliances-Small-banners.jpg?context=bWFzdGVyfGltYWdlc3w2ODA0M3xpbWFnZS9qcGVnfGltYWdlcy9oYTUvaDhmLzk5MTM3NzczMjQwNjIuanBnfDdjMTE5YzUzNjcyODZiNDljNGJlNDMzZTNkNGI5Nzg2ZjlhOTg0YmFhYTViOTZmOTFkNmY1MWRlZGQ4NWY5ZDY",
+  },
 ];
 
 let categorycards = document.querySelector("#categorypics");
-for(let i = 0; i<categoryPics.length;i++){
-    let catdiv = document.createElement("div");
-    let image = document.createElement("img");
-    image.src = categoryPics[i].image;
-    catdiv.append(image);
-    categorycards.append(catdiv);
+for (let i = 0; i < categoryPics.length; i++) {
+  let catdiv = document.createElement("div");
+  let image = document.createElement("img");
+  image.src = categoryPics[i].image;
+  catdiv.append(image);
+  categorycards.append(catdiv);
 }
+//monitar data slide1
+var monitor1 = [
+  {
+    image:
+      "https://www.reliancedigital.in/medias/ZEBRONICS-MT61-Monitor-492849914-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNTI2N3xpbWFnZS9qcGVnfGltYWdlcy9oNmIvaDU1Lzk4MTI4NzcxMTU0MjIuanBnfDNjYWZmNDg5OTFjNWI1YzZjYmZjZDkyODQzMzAyYzVhYTY5NjdlZWI1YjNlMWYwMzE1YTU4ZDdkYTI2ZGZlMTc",
+    title:
+      "ZEBRONICS MT61-ZEB A22FHD 54.6 cm (21.5 inch), 1920 x 1080  Resolution, Black Monitor",
+    brand: "ZEBRONICS",
+    rating: 4.5,
+    offerprice: 7999.0,
+    mrp: 13999.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/ENTER-A06-Computer-Monitor-492850691-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3Mzc0OHxpbWFnZS9qcGVnfGltYWdlcy9oYWMvaGMxLzk4NTIyMzkwODU1OTguanBnfDQxMmM2ZDdiMjAxYjU1YWVjM2U1NTFlYjQ0ODM1NGFkMjg5NjI4NTJhNjNhMTQzYjM4ZGI0MzdlMzU1ODdkNDI",
+    title:
+      "ENTER A06 39.1 cm (15.4 inch) 1280 x 800 Resolution , Black Monitor",
+    brand: "ENTER",
+    rating: 4.8,
+    offerprice: 2999.0,
+    mrp: 6999.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/Acer-HA220Q-Monitors-492849987-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4ODc1NHxpbWFnZS9qcGVnfGltYWdlcy9oMjYvaDUyLzk4MTczMDMzODQwOTQuanBnfDRiMzY1YjAwNmUxNzUxMjFkYzcwOTA3ZTRlMmY0ZjliMjI2NGExMmQzNmUyYTE3NmNhMWZhODI1NmU1MDhiZDQ",
+    title:
+      "Acer HA220Q 54.61 cm (21.5 inch) with IPS Panel Technology 1920 x 1080 Resolution 2W Speakers White Monitor",
+    brand: "ACER",
+    rating: 4.5,
+    offerprice: 8999.99,
+    mrp: 15700.0,
+    category: "Monitor",
+  },
+  {
+    image:
+      "https://www.reliancedigital.in/medias/ENTER-A02-W-Computer-Monitor-492850693-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NDI5MnxpbWFnZS9qcGVnfGltYWdlcy9oODIvaGNjLzk4NTIyNDAwNjg2MzguanBnfDY5NzRkYzhhODk2ZjUyMDhkN2E0NmVjMWYzODMyNTRjOTJkMjIxYjhkMzk1ZDMzMzFhMDhiNjUxY2QzY2U5MDA",
+    title: "ENTER A02-W 43.94 cm (17.3 inch), Black Monitor",
+    brand: "ENTER",
+    rating: 4.3,
+    offerprice: 3299.0,
+    mrp: 8000.0,
+    category: "Monitor",
+  },
+];
+//monitar data slide2
+var monitor2 = [
+    {
+        image:"https://www.reliancedigital.in/medias/Acer-HA240Y-Monitors-492849988-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg2MDd8aW1hZ2UvanBlZ3xpbWFnZXMvaDE4L2g1Ni85ODE3MzExNTc2MDk0LmpwZ3w0ZWEzNmQ1ODE2NWNkZWQ0MGIzYmUxYzU2ZmUxMzZhYWE1MGFmZDg1NmJiZDhmMWE1Y2NiMjRhYmFjOTIzNTlj",
+        title:"Acer HA240Y 60.45 cm (23.8 inch) with IPS Panel Technology, White Monitor",
+        brand:"ACER",
+        rating:4.9,
+        offerprice:10299.00,
+        mrp:17455.00,
+        category:"Monitor"
+    },
+    {
+        image:"https://www.reliancedigital.in/medias/Acer-EK240YC-LED-492574202-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjgxN3xpbWFnZS9qcGVnfGltYWdlcy9oOGIvaDY5Lzk4MzI4NTkyNzExOTguanBnfDJjNjJmOTgyMDdmNDZiNDljZDk4ZTgzYjA3MjU3ZGNiOGFhOWVlNGI2MmE1MWNkYTE2ZWIxY2NmMTYyYzIwN2Q",
+        title:"Acer EK240YC 60.5 cm (23.8 inch) with VA Panel Technology 1920 x 1080 Resolution Refresh Rate 75 Hz Black Monitor",
+        brand:"ACER",
+        rating:4.6,
+        offerprice:17387.00,
+        mrp:25496.00,
+        category:"Monitor"
+    },
+    {
+        image:"https://www.reliancedigital.in/medias/Asus-VG259QR-Gaming-Monitor-491997455-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTA0NXxpbWFnZS9qcGVnfGltYWdlcy9oYjMvaDMzLzk2NDQxMjI0Mzk3MTAuanBnfDg0OTI0MmFmNGZmOTkwNWM1ZmMyNjc2MDhjZTg0M2I2Zjc5ODYyMzg5MWE2MWY0NjZhYjY4ODRlODFlMzE5YjY",
+        title:"Asus VG259QR 62.23 cm (24.5 inch) with IPS Panel Technology, 1920 x 1080  Resolution, Built-in speaker, Refresh Rate 165 Hz, Response Time 1 ms, Black Monitor",
+        brand:"ACER",
+        rating:5.0,
+        offerprice:18845.00,
+        mrp:29999.00,
+        category:"Monitor"
+    },
+    {
+        image:"https://www.reliancedigital.in/medias/Acer-20CH1Q-Monitors-492850705-i-4-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5NDY5OHxpbWFnZS9qcGVnfGltYWdlcy9oODkvaDUwLzk4NDg0MTQwNzY5NTguanBnfGE2ODgzNzUyMWY4NGVjZjQyMmI5ZGIwNDRkMGYxYzY0NTAwNDg0NjMzMTkwNmQwNzM2N2RiNmMwODBkMGQzN2E",
+        title:"Acer 20CH1Q 49.53 cm (19.5 inch) with TN Panel Technology 1366 x 768 Resolution Black Monitor",
+        brand:"ACER",
+        rating:4.8,
+        offerprice:12999.00,
+        mrp:15899.00,
+        category:"Monitor"
+    }
+];
+
 
 // for sticky navbar
 
@@ -275,6 +385,12 @@ let t1 = document.querySelector("#proTeli1");
 displaycard(TvProCra1, t1);
 let t2 = document.querySelector("#proTeli2");
 displaycard(TvProCra2, t2);
+
+//top crousal of Telivisions 5 append in one slide
+let m1 = document.querySelector("#monitors1");
+displaycard(monitor1, m1);
+let m2 = document.querySelector("#monitors2");
+displaycard(monitor2, m2);
 
 function displaycard(data, box) {
   data.forEach((elem) => {

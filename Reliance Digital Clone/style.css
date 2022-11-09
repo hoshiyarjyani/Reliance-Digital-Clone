@@ -476,3 +476,40 @@ header {
   font-weight: 700;
   margin: 4px 0;
 }
+
+/* explore the range of product */
+#diffproduct {
+  text-align: center;
+  background-color: #f7f7f7;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+#diffproduct h4 {
+  padding-top: 1rem;
+}
+#diffproduct h3 {
+  margin-top: 3rem;
+  font-size: 21px;
+}
+#range1,
+#range2 {
+  display: flex;
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#range1 > div,
+#range2 > div {
+  padding: 0 1rem;
+  width: 18%;
+}
+.viewall {
+  border: 0px solid white;
+  border-radius: 25px;
+  padding: 5px 11px;
+  background-color: #003380;
+  width: 8.5%;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+}

@@ -490,6 +490,7 @@ header {
 #diffproduct h3 {
   margin-top: 3rem;
   font-size: 21px;
+  cursor: pointer;
 }
 #range1,
 #range2 {
@@ -512,4 +513,54 @@ header {
   margin: auto;
   color: white;
   font-weight: 500;
+  cursor: pointer;
+}
+/* footer section */
+.footer{
+    background-color: #003380;
+    color:white;
+    padding-bottom: 1.7rem;
+}
+.footerdetails{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.footerdetails > div{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.footerdetails a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 3px;
+}
+.footerdetails h3{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2px;
+}
+
+.playstorelogo{
+    display: flex;
+    width: 57%;
+    margin-left: 1.2rem;
+    justify-content: space-evenly;
+}
+.playstorelogo h3{
+    font-size: 20px;
+}
+
+.follow{
+    width: 38%;
+   
+}
+.playstore{
+    width: 50%;
+    
+}
+.playstore img{
+    width: 28%;
 }

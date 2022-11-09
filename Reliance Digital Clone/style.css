@@ -9,7 +9,6 @@ header {
   margin: 0;
   background-color: #e42529;
   color: white;
-  
 }
 #nav1 {
   display: flex;
@@ -26,6 +25,14 @@ header {
 }
 
 /* nav 2nd part */
+
+.sticky {
+  position: fixed;
+  background-color: #e42529;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
 
 #nav2 {
   display: flex;
@@ -75,96 +82,97 @@ header {
 
 /* BLUE NAV BAR */
 
-#navblue{
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #003380;
-    padding: 10px 0;
-    margin-bottom: 0;
+#navblue {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #003380;
+  padding: 10px 0;
+  margin-bottom: 0;
 }
 
 /* top big banner */
 
-#topbigbanner{
-    width: 100%;
+#topbigbanner {
+  width: 100%;
 }
-#topbigbanner img{
-    width: 100%;
+#topbigbanner img {
+  width: 100%;
 }
 
 /* top crausal */
-#crousal{
-    width: 100%;
+#crousal {
+  width: 100%;
 }
-#crousal img{
-    width: 100%;
+#crousal img {
+  width: 100%;
 }
 
 /* crausal slide show top */
-#crouselbtnpre, #crouselbtnnext,#crouselbtnpre1, #crouselbtnnext1 {
-        border: 1px solid black;
-        height: 5rem;
-        width: 1.8rem;
-        background-color: white;
-        margin: auto;
-        color: black;
-        border: 0;
+#crouselbtnpre,
+#crouselbtnnext,
+#crouselbtnpre1,
+#crouselbtnnext1 {
+  border: 1px solid black;
+  height: 5rem;
+  width: 1.8rem;
+  background-color: white;
+  margin: auto;
+  color: black;
+  border: 0;
+  z-index: 0;
 }
 
 /* crausal product top */
 
-#crousalproduct p{
-    color: #003380;
-    font-size: 20px;
-    height: 2.6em;
-    line-height: 1.4em;
-    margin-right: 20px;
-    overflow: hidden;
+#crousalproduct p {
+  color: #003380;
+  font-size: 20px;
+  height: 2.6em;
+  line-height: 1.4em;
+  margin-right: 20px;
+  overflow: hidden;
 }
-#crousalproduct img{
-    width: 100%;
-    margin-bottom: 1rem;
+#crousalproduct img {
+  width: 100%;
+  margin-bottom: 1rem;
 }
-#crousalproduct img:hover{
-    width: 106%;
+#crousalproduct img:hover {
+  width: 106%;
 }
-#crousalproduct h6{
-    font-size: 15px;
-    
+#crousalproduct h6 {
+  font-size: 15px;
 }
-#crousalproduct h5{
-    font-size: 20px;
-    font-weight: 700;
+#crousalproduct h5 {
+  font-size: 20px;
+  font-weight: 700;
 }
-#procra1{
-    display: flex;
-   padding: 0 3rem;
-    justify-content: space-between;
-    width: 100%;
+#procra1 {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: space-between;
+  width: 100%;
 }
-#procra1>div{
-    padding: 1rem;
-    width: 15%;
-}
-
-
-#procra2{
-    display: flex;
-   padding: 0 3rem;
-    justify-content: space-between;
-    width: 100%;
-}
-#procra2>div{
-    padding: 1rem;
-    width: 15%;
-}
-.offerdiv{
-    color: green;
-    border: 1px solid green;
-    border-radius: 15px;
-    font-size: 15px;
-    text-align: center;
+#procra1 > div {
+  padding: 1rem;
+  width: 15%;
 }
 
+#procra2 {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: space-between;
+  width: 100%;
+}
+#procra2 > div {
+  padding: 1rem;
+  width: 15%;
+}
+.offerdiv {
+  color: green;
+  border: 1px solid green;
+  border-radius: 15px;
+  font-size: 15px;
+  text-align: center;
+}

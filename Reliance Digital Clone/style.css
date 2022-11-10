@@ -38,7 +38,7 @@ header {
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   width: 100%;
 }
 
@@ -49,7 +49,7 @@ header {
   width: 25%;
   padding-left: 1 rem;
 }
-#pincartlogin a{
+#pincartlogin a {
   color: white;
   text-decoration: none;
 }
@@ -99,7 +99,10 @@ header {
   padding: 10px 0;
   margin-bottom: 0;
 }
-
+#navblue a {
+  text-decoration: none;
+  color: white;
+}
 /* top big banner */
 
 #topbigbanner {
@@ -302,7 +305,17 @@ header {
 }
 
 /* monitor carousal flex  & dailyuse & kodak tv*/
-
+.tvheading a,
+.watchheading a,
+.Dailyuseheading a,
+.iphoneheading a,
+.monitorheading a,
+#pics8 a,
+#crousalproductTelivision a,
+#crousalproduct a {
+  text-decoration: none;
+  color: black;
+}
 #monitor,
 #dailyuse,
 #tv {
@@ -523,68 +536,71 @@ header {
   font-weight: 500;
   cursor: pointer;
 }
+.carousel-inner a {
+  color: black;
+  text-decoration: none;
+}
+
 /* footer section */
-.footer{
-    background-color: #003380;
-    color:white;
-    padding-bottom: 1.7rem;
+.footer {
+  background-color: #003380;
+  color: white;
+  padding-bottom: 1.7rem;
 }
-.footerdetails{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+.footerdetails {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
-.footerdetails > div{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
+.footerdetails > div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
 }
-.footerdetails a{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    margin-top: 3px;
+.footerdetails a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 3px;
 }
-.footerdetails h3{
-    font-size: 20px;
-    margin-top: 1rem;
-    margin-bottom: 2px;
-}
-
-.playstorelogo{
-    display: flex;
-    width: 57%;
-    margin-left: 1.2rem;
-    justify-content: space-evenly;
-}
-.playstorelogo h3{
-    font-size: 20px;
+.footerdetails h3 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 2px;
 }
 
-.follow{
-    width: 38%;
-   
+.playstorelogo {
+  display: flex;
+  width: 57%;
+  margin-left: 1.2rem;
+  justify-content: space-evenly;
 }
-.playstore{
-    width: 50%;
-    
+.playstorelogo h3 {
+  font-size: 20px;
 }
-.playstore img{
-    width: 28%;
+
+.follow {
+  width: 38%;
 }
-.disclaimer{
-    background-color: #0A244A;
-    margin: auto;
-    text-align: center;
-    color:white;
-    padding:0.5rem 0;
+.playstore {
+  width: 50%;
 }
-.disclaimer h3{
-    font-size: 21px;
+.playstore img {
+  width: 28%;
 }
-.line{
-    text-decoration: underline;
+.disclaimer {
+  background-color: #0a244a;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0;
 }
-.thin{
-    color: gray;
+.disclaimer h3 {
+  font-size: 21px;
+}
+.line {
+  text-decoration: underline;
+}
+.thin {
+  color: gray;
 }

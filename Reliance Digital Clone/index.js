@@ -723,6 +723,16 @@ var tv2 = [
     category: "Telivision",
   },
 ];
+//cart item no show
+let count = localStorage.getItem("countitem") || 0;
+document.querySelector(".cartno").innerText = "Cart- " + count;
+// user name show
+
+var userDetails = JSON.parse(localStorage.getItem("userData")) || [];
+
+userDetails.forEach(function (elem, i) {
+  document.querySelector(".user").innerHTML = elem.fname;
+});
 
 // for sticky navbar
 
@@ -776,7 +786,6 @@ let w1 = document.querySelector("#watch1");
 displaycard(watch1, w1);
 let w2 = document.querySelector("#watch2");
 displaycard(watch2, w2);
-
 
 //crousal of kodak tv 4 append in one slide
 let kodaktv1 = document.querySelector("#tv1");

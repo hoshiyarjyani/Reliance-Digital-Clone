@@ -47,7 +47,10 @@ header {
   font-size: 17px;
   font-weight: 700;
 }
-
+#pincartlogin a{
+  color: white;
+  text-decoration: none;
+}
 #brandlogo {
   margin-left: 2rem;
 }

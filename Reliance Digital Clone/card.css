@@ -1,0 +1,25 @@
+#cardcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#cardcontainer>div{
+    width: 21%;
+    margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem;
+}
+#cardcontainer img{
+    width: 100%;
+}
+#cardcontainer p{
+    font-size: 10px;
+}
+#cardcontainer h5{
+    font-size: 20px;
+}
+#cardcontainer h6{
+    font-size: 12px;
+}

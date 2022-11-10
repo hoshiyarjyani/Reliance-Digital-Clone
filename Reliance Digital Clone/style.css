@@ -38,14 +38,16 @@ header {
   display: flex;
   flex-direction: row;
   margin-top: 1rem;
-  justify-content: space-between;
+  justify-content:space-evenly;
+  width: 100%;
 }
 
 #pincartlogin {
   display: flex;
-  margin-right: 15px;
   font-size: 17px;
   font-weight: 700;
+  width: 25%;
+  padding-left: 1 rem;
 }
 #pincartlogin a{
   color: white;
@@ -53,25 +55,28 @@ header {
 }
 #brandlogo {
   margin-left: 2rem;
+  width: 20%;
 }
 #brandlogo img {
-  width: 50%;
+  width: 60%;
   padding-bottom: 0.7rem;
 }
 #searchbar {
   background-color: white;
-  height: 2.1rem;
+  height: 2rem;
   border-radius: 25px;
   margin-right: 7rem;
+  width: 41%;
 }
 #searchbar button {
   background-color: white;
   border: 0px solid white;
   margin-right: 1rem;
   color: gray;
+  width: 5%;
 }
 #searchbar input {
-  width: 24rem;
+  width: 85%;
   padding: 8px 2px;
   margin-left: 1rem;
   border: 0;

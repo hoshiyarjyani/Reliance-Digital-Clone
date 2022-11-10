@@ -6,8 +6,8 @@ document.querySelector("#signup").addEventListener("click",function(){
   var email = document.querySelector("#email").value;
   var mobile = document.querySelector("#mobile").value;
   var password = document.querySelector("#password").value;
-  if (fname=="" || lname==""|| email == "" || mobile == "" || password == "") {
-    alert("Please Enter All Details For SignUp");
+  if (fname=="" || lname==""|| email == "" || mobile == "" || password == "" || mobile>9999999999 || mobile<1000000000) {
+    alert("Please Enter All Valid Details For SignUp");
   } else {
     let obj = {fname:fname,lname:lname, email: email, mobile: mobile, password: password };
     userDetails.push(obj);

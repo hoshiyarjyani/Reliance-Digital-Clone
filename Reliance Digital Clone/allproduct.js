@@ -26,24 +26,33 @@ window.onscroll = function () {
   
   //  append in one div tvdata using flex
   let card = document.querySelector("#cardcontainer");
-  
+  var bag;
   // data fatching from json file
   let x = fetch("./alldata.json")
     .then((res) => res.json())
     .then((data) => {
       //apply filter method during data fetch
-  
-      var newData = data.filter(function (elem) {
-        return elem;
-      });
-      displaycard(newData, card);
+      bag=data;
+      displaycard(data, card);
     });
-  
+  //searching function
+
+  function search() {
+    let val = document.querySelector("#search").value;
+    let newData = bag.filter(function (elem) {
+      return elem.title.toLowerCase().includes(val.toLowerCase());
+    });
+    displaycard(newData,card);
+  }
+
+
+
   //count show on top
   var displaycartitem = document.querySelector("#cartshow");
   displaycartitem.innerText = "-" + count;
   
   function displaycard(data, box) {
+    card.innerHTML="";
     data.filter((elem) => {
       let card = document.createElement("div");
   
@@ -100,3 +109,55 @@ window.onscroll = function () {
     });
   }
   
+
+//div as button btn
+document.querySelector("#brandlogo").addEventListener("click",function(){
+  window.location.href = "/index.html";
+});
+
+document.querySelector("#topbigbanner").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});
+document.querySelector(".carousel-item").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});
+document.querySelector("#procra1").addEventListener("click",function(){
+  window.location.href = "/earphone.html";
+});
+document.querySelector("#procra2").addEventListener("click",function(){
+  window.location.href = "/earphone.html";
+});
+document.querySelector("#crousalproductTelivision").addEventListener("click",function(){
+  window.location.href = "/tv.html";
+});
+
+document.querySelector("#categorypics").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});
+document.querySelector("#crousaliphone").addEventListener("click",function(){
+  window.location.href = "/mobile.html";
+});
+document.querySelector("#monitor").addEventListener("click",function(){
+  window.location.href = "/monitor.html";
+});
+document.querySelector("#iphone14").addEventListener("click",function(){
+  window.location.href = "/mobile.html";
+});
+document.querySelector("#dailyuse").addEventListener("click",function(){
+  window.location.href = "/dailyuse.html";
+});
+document.querySelector("#watch").addEventListener("click",function(){
+  window.location.href = "/watch.html";
+});
+document.querySelector("#tv").addEventListener("click",function(){
+  window.location.href = "/tv.html";
+});
+document.querySelector("#range1").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});
+document.querySelector("#range2").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});
+document.querySelector(".viewall").addEventListener("click",function(){
+  window.location.href = "/allproduct.html";
+});

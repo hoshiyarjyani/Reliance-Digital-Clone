@@ -604,3 +604,55 @@ header {
 .thin {
   color: gray;
 }
+
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+/* map */
+.nksha{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.type{
+  text-align: center;
+margin-top: 5rem;
+}
+.type input{
+  margin-top: 1rem;
+  min-height: 1.5rem;
+  padding-left: 1rem;
+}
+#redc{
+  color: #e42529;
+  text-decoration: underline;
+}
+#ms{
+  padding: 8px 28px;
+  background-color: #e42529;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0px solid white;
+  border-radius: 3px;
+  margin-left: 1rem;
+}
+#ms:hover{
+  background-color: #003380;
+}
+.location a{
+  text-decoration: none;
+  color: white;
+}
+.location a:hover{
+  color:black;
+}

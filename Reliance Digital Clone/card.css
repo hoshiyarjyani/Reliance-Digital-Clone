@@ -155,3 +155,22 @@ margin-left: 3%;
   #addr {
     margin-bottom: 1rem;
   }
+
+  #sorting{
+
+    width: 10rem;
+  }
+/* sorting */
+  .srt{
+width: 100%;
+background-color: #e42529;
+padding: 5px 0;
+  }
+  .byrating, .byprice{
+    background-color: #da0306;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 0;
+    margin-left: 5px;
+    border-radius: 3px;
+  }

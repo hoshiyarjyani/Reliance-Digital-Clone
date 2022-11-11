@@ -45,8 +45,31 @@ window.onscroll = function () {
     displaycard(newData,card);
   }
 
+//Sorting function by price
 
+function handlesort() {
+  let selected = document.querySelector(".byprice").value;
+  if (selected == "Price High To Low") {
+    bag.sort((a, b) => b.offerprice - a.offerprice);
+    displaycard(bag,card);
+  } else {
+    bag.sort((a, b) => a.offerprice - b.offerprice);
+    displaycard(bag,card);
+  }
+}
 
+//Sorting function by rating
+
+function handlesortrating() {
+  let selected = document.querySelector(".byrating").value;
+  if (selected == "Rating High To Low") {
+    bag.sort((a, b) => b.rating - a.rating);
+    displaycard(bag,card);
+  } else {
+    bag.sort((a, b) => a.rating - b.rating);
+    displaycard(bag,card);
+  }
+}
   //count show on top
   var displaycartitem = document.querySelector("#cartshow");
   displaycartitem.innerText = "-" + count;

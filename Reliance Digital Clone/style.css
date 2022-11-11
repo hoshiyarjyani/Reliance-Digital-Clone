@@ -63,27 +63,39 @@ header {
 }
 #searchbar {
   background-color: white;
-  height: 2rem;
+  height: 2.3rem;
   border-radius: 25px;
   margin-right: 7rem;
-  width: 41%;
+  width: 37%;
 }
 #searchbar button {
   background-color: white;
   border: 0px solid white;
-  margin-right: 1rem;
+  
   color: gray;
-  width: 5%;
+  width: 2rem;
+  border-radius: 50px;
 }
 #searchbar input {
   width: 85%;
-  padding: 8px 2px;
+  padding: 0px 9px;
   margin-left: 1rem;
   border: 0;
   outline: none;
-  font-size: 18px;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
 }
-
+#searchba input {
+  width: 78%;
+  padding: 10px 9px;
+  margin-left: 1rem;
+  border: 0;
+  outline: none;
+  font-size: 15px;
+  height: 30px;
+  color: gray;
+}
 #pincartlogin div {
   padding: 5px;
 }

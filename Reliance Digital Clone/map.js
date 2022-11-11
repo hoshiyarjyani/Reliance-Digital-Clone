@@ -14,18 +14,6 @@ document.querySelector("#ms").addEventListener("click", function () {
         "&t=&z=13&ie=UTF8&iwloc=&output=embed";
     });
 
-
-
-
-
-
-
-
-
-
-
-
-
 // for sticky nav bar
 window.onscroll = function () {
     myFunction();

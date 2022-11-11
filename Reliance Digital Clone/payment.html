@@ -18,7 +18,7 @@
     <!-- bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
-    <title>Cart Products</title>
+    <title>Dailyuse Items</title>
   </head>
   <body>
     <!-- header Section of home page -->
@@ -42,34 +42,53 @@
             <div>Select your PIN Code</div>
             <div>| <i class="fa fa-shopping-cart header__maininfo__list__item__icon"></i></div> <a href="/cart.html">Cart</a><span id="cartshow"></span>
             <div>|
-              <i class="fa fa-user header__maininfo__list__item__icon"></i> <a href="/signup1.html"><span class="user">Login</span></a>
+              <i class="fa fa-user header__maininfo__list__item__icon"></i> <a href="/signup1.html"><span class="user">Login</span> </a>
             </div>
           </div>
         </div>
         <div id="navblue">
-          <div><a href="/mobile.html">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></div>
-          <div><a href="/tv.html">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></div>
-          <div> <a href="/earphone.html">AUDIO</a><i class="fa fa-angle-down ml__4"></i></div>
-          <div> <a href="/dailyuse.html">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></div>
-          <div><a href="/monitor.html">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></div>
-          <div> <a href="/mobile.html">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></div>
-          <div> <a href="/earphone.html">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></div>
-          <div><a href="/dailyuse.html">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></div>
-          <div><a href="/watch.html">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
-       </div>
-
+            <div><a href="/mobile.html">MOBILES & TABLETS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="/tv.html">TELEVISIONS </a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="/earphone.html">AUDIO</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="/dailyuse.html">HOME APPLIANCES</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="/monitor.html">COUMPUTERS</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="/mobile.html">CAMERAS</a><i class="fa fa-angle-down ml__4"></i></div>
+            <div> <a href="/earphone.html">KITCHEN APPLIANCES</a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="/dailyuse.html">PERSONAL CARE </a> <i class="fa fa-angle-down ml__4"></i></div>
+            <div><a href="/watch.html">ACCESSORIES</a> <i class="fa fa-angle-down ml__4"></i></div>
+         </div>
+ 
 
       </div>
-      <div class="main">
-        <input type="text" id="promo" placeholder="Enter Code here">
-        <button id="promobtn">Apply Promo</button>
-        <h5 id="totel">Totel</h2>
-        <button id="buy">Buy Now</button>
-          <!-- <form action="/Payment.html">
-            <input id="buy" type="submit" value="Buy Now">
-        </form> -->
-      </div>
+      
     </header>
+<!-- payments -->
+<div id="paymentspage">
+    <div id="addr">
+        <h4 class="rupees"></h4>
+        <h6>Enter Your Delivery Address</h6>
+        <form>
+            <input type="text" name=""  placeholder="Enter Your Name*"><br>
+            <input type="text" name="" placeholder="Enter Your Address*"><br>
+            <input type="text" name="" placeholder="Enter Your City*"><br>
+            <input type="number" name="" placeholder="Enter Your Mobile Number*"><br>
+        </form>
+    </div>
+    
+<div class="forms">
+    <form action="/otp.html">
+        <h6>Enter Your Card Details Here</h6>
+        <input type="number"  min="1000000000000000" max="9999999999999999"  name="" id="card" placeholder="Enter your Card 16 Digit No."><br>
+        <input type="date" name="" id="date" placeholder="Expiary Date"><br>
+        <input type="number" min="100" max="999" name="" id="cvv" placeholder="Enter CVV"><br>
+        <input type="text" name="" id="name" placeholder="Cardholder Name"><br>
+        <input type="submit" name="" id="subm" placeholder="Make Payment"><br>
+  </form>
+</div>
+   
+             
+</div>
+
     <!-- header Section closed here -->
     <div id="topbigbanner">
      <img src="/pics/20000-instant-Discount-Carousel-Banner-08-11-2022.webp" alt="">
@@ -103,9 +122,7 @@
       </div>
     </div>
 
-<div id="cardcontainer">
 
-</div>
 
 <!-- footer section -->
 
@@ -177,7 +194,7 @@
 <h3> © 2022 #TAG DIGITAL. All Rights Reserved.</h3>
 </div>
   </body>
-  <script src="/cart.js"></script>
+  <script src="/payment.js"></script>
 
 
 </html>

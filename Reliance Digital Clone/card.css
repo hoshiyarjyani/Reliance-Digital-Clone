@@ -82,3 +82,76 @@ margin-left: 3%;
   background-color: black;
   border: 1px solid white;
 }
+
+#buy{
+  margin-left: 2rem;
+  background-color: rgb(241, 73, 6);
+  color: white;
+  font-weight: 700;
+  border: 2px solid white;
+  padding: 4px 15px;
+  font-size: 20px;
+  border-radius: 3px;
+
+}
+#buy:hover{
+  background-color: #e42529;
+}
+#last{
+  width: 40%;
+  margin:3rem auto 2rem;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  height: 10rem;
+  border-radius: 12px;
+  }
+  #last h4{
+    margin-bottom: 1rem;
+    font-family: monospace;
+  }
+  #last button{
+    background-color: #e42529;
+    color: white;
+    border: 0px;
+    font-weight: 700;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #last button:hover{
+    background-color: #f46d06;
+    
+  }
+  #last input{
+    border-radius: 6px;
+  }
+
+  #paymentspage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  #paymentspage h4{
+    padding-top: 1rem;
+  }
+  #paymentspage div{
+    text-align: center;
+  }
+  #paymentspage .forms input{
+ width: 60%;
+ margin:4px auto;
+
+  }
+
+  #paymentspage .forms{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem 0;
+  }
+  #addr input{
+    width: 60%;
+    margin:4px auto;
+  }
+  #addr {
+    margin-bottom: 1rem;
+  }

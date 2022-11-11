@@ -226,3 +226,7 @@ document.querySelector("#range2").addEventListener("click",function(){
 document.querySelector(".viewall").addEventListener("click",function(){
   window.location.href = "/allproduct.html";
 });
+
+document.querySelector(".location").addEventListener("click",function(){
+  window.location.href = "/map.html";
+});

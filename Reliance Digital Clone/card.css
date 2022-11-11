@@ -67,9 +67,9 @@ margin-left: 3%;
 }
 #promobtn{
   padding: 0.2rem 0.5rem;
-  background-color:white;
-  border-radius: 8px;
-  color: black;
+  background-color: #003380;
+  border-radius: 1px;
+  color: white;
   font-weight: 700;
   border: 1px solid black;
   text-align: center;
@@ -79,23 +79,23 @@ margin-left: 3%;
 
 #promobtn:hover{
   color: white;
-  background-color: black;
+  background-color: #e42529;
   border: 1px solid white;
 }
 
 #buy{
-  margin-left: 2rem;
-  background-color: rgb(241, 73, 6);
+  margin:6px 2rem;
+  background-color: #e42529;
   color: white;
   font-weight: 700;
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 4px 15px;
   font-size: 20px;
   border-radius: 3px;
 
 }
 #buy:hover{
-  background-color: #e42529;
+  background-color: #003380;
 }
 #last{
   width: 40%;

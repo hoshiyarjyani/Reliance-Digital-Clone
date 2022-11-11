@@ -16,6 +16,14 @@ window.onscroll = function () {
     }
   }
   
+//buy button
+
+document.querySelector("#buy").addEventListener("click",function(){
+  localStorage.setItem("amountTotel",JSON.stringify(sum));
+  window.location.href = "/Payment.html";
+});
+
+
   let count = localStorage.getItem("countitem") || 0;
   let cartarr = JSON.parse(localStorage.getItem("cart")) || [];
   let p =1;
@@ -165,3 +173,4 @@ totel.innerText="Totel Amount = "+ sum +" ₹";
   }
   displaycard(cartarr);
   calculate(cartarr);
+

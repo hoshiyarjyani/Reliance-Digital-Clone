@@ -30,7 +30,7 @@ document.querySelector("#signin").addEventListener("click", function () {
     });
     if (flag) {
       alert("Login Sucessfull");
-      window.location.href = "/index.html";
+      window.location.href = "/allproduct.html";
       document.querySelector(".user").innerHTML = elem.fname;
     } else {
       alert("oops! User Does Not Exist ! Try Again");

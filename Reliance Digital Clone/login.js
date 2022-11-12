@@ -16,7 +16,7 @@ function myFunction() {
 
 var userDetails = JSON.parse(localStorage.getItem("userData")) || [];
 
-document.querySelector("#signin").addEventListener("click", function () {
+document.querySelector("#signn").addEventListener("click", function () {
   var mobile1 = document.querySelector("#mobile").value;
   var password1 = document.querySelector("#password").value;
   if (mobile1 == "" || password1 == "") {

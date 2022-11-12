@@ -780,3 +780,45 @@ margin-top: 1rem;
 #signn:hover{
   background-color: #003380;
 }
+
+
+/* admin page css  */
+
+
+#adminform{
+  width: 60%;
+  margin:2rem auto;
+  padding: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+}
+#adminform  h3{
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+#adminform input{
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#adminform button{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#adminform button:hover{
+  background-color: #003380;
+}
+
+#addnewdata, #seedata, #adminturn{
+  cursor: pointer;
+}
+#adminturn a{
+text-decoration: none;
+color: white;
+}

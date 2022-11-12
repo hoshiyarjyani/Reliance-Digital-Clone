@@ -668,3 +668,115 @@ margin-top: 5rem;
 .location a:hover{
   color:black;
 }
+
+/* registration page2 */
+
+.signup2box{
+  width: 45%;
+  margin:1rem auto;
+ padding: 2rem;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ height: 45rem;
+}
+
+.signup2box input{
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  height: 2.2rem;
+}
+
+.signup2box p{
+  font-size: 15px;
+  margin: 0;
+}
+.end{
+  text-align: center;
+  font-size: 15px;
+margin-top: 1rem;
+}
+.end a{
+  font-size: 20px;
+  color: #e42529;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left:5px;
+}
+.signup2box h3{
+  margin-bottom: 0px;
+}
+.signup2box #signup{
+  background-color: #e42529;
+  color: white;
+  font-weight: 700;
+  border: 0px solid white;
+  padding: 15px auto;
+}
+
+.signup2box #signup:hover{
+  background-color: #003380;
+}
+
+.mobileregister{
+ display:flex;
+ width: 100%;
+ justify-content: space-evenly;
+}
+
+.mobileregister img{
+  width: 100%;
+}
+
+.mobileregister .banner1{
+  width: 47%;
+}
+
+.mobileregister .parent1{
+  width: 47%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin:2rem 0;
+  padding-top: 2rem;
+}
+
+.mobileregister input{
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+#btnx{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+#btnx:hover{
+  background-color: #003380;
+}
+
+.loginbox{
+  width: 50%;
+  margin:2rem auto;
+  padding: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.loginbox input{
+  width: 100%;
+}
+.head3{
+  text-align: center;
+}
+#signn{
+  background-color: #e42529;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+#signn:hover{
+  background-color: #003380;
+}

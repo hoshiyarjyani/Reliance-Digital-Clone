@@ -16,7 +16,7 @@ function myFunction() {
 
 let count = localStorage.getItem("countitem") || 0;
 let cartarr = JSON.parse(localStorage.getItem("cart")) || [];
-
+let cartobj={};
 //username show
 var userDetails = JSON.parse(localStorage.getItem("userData")) || [];
 
@@ -73,11 +73,17 @@ function displaycard(data, box) {
     let btn = document.createElement("button");
     btn.innerText = "Add To Cart";
     btn.addEventListener("click", function () {
-      cartarr.push(elem);
-      localStorage.setItem("cart", JSON.stringify(cartarr));
-      count++;
-      localStorage.setItem("countitem", count);
-      displaycartitem.innerText = "-" + count;
+      if (cartobj[elem.id] == undefined) {
+        cartobj[elem.id] = 1;
+        cartarr.push(elem);
+        localStorage.setItem("cart", JSON.stringify(cartarr));
+        count++;
+        localStorage.setItem("countitem", count);
+        displaycartitem.innerText = "-" + count;
+        alert("Product Added To Cart");
+      } else {
+        alert("Product is already in Cart");
+      }
     });
 
     let offerdiv = document.createElement("div");

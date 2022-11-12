@@ -18,7 +18,7 @@ btn.addEventListener("click", validate);
 function validate() {
   if (otp.value == "123456") {
     alert("Hurray!...Payment Successful. Order Confirmed! Your Order Id- #58H5P96");
-    window.location.href = "/dailyuse.html";
+    window.location.href = "/index.html";
   } else {
     alert("Wrong OTP");
   }

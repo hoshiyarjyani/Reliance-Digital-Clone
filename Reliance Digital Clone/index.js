@@ -890,3 +890,7 @@ document.querySelector("#range2").addEventListener("click",function(){
 document.querySelector(".viewall").addEventListener("click",function(){
   window.location.href = "/allproduct.html";
 });
+
+document.querySelector("#addnewdata").addEventListener("click",function(){
+  window.location.href = "/admin.html";
+});

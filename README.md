@@ -3,6 +3,8 @@
 This project is a clone of the Reliance Digital website, created using HTML, CSS, and JavaScript. It aims to replicate some of the features and functionalities of the original website. Users can explore different product categories, apply filters, add items to the cart, purchase products, and view nearby stores on a map. The project also includes a simple admin interface to add new products to the inventory.
 
 <hr>
+## Video Presentation - https://youtu.be/tMrLSsTjlQU
+<hr>
 
 ## Features
 

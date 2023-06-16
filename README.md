@@ -2,6 +2,8 @@
 
 This project is a clone of the Reliance Digital website, created using HTML, CSS, and JavaScript. It aims to replicate some of the features and functionalities of the original website. Users can explore different product categories, apply filters, add items to the cart, purchase products, and view nearby stores on a map. The project also includes a simple admin interface to add new products to the inventory.
 
+<hr>
+
 ## Features
 
 - **Carousel of Offers**: The homepage showcases a carousel displaying various offers and promotions.
@@ -19,6 +21,8 @@ This project is a clone of the Reliance Digital website, created using HTML, CSS
 - **Store Locator**: The website provides a map feature to help users find nearby Reliance Digital stores.
 
 - **Admin Interface**: There is a simple admin interface that allows authorized personnel to add new products to the inventory.
+
+<hr>
 
 ## Screenshots
 
@@ -69,18 +73,24 @@ This project is a clone of the Reliance Digital website, created using HTML, CSS
 
 ![Screenshot 19]![17](https://github.com/hoshiyarjyani/Reliance-Digital-Clone/assets/110700928/c5840b5b-a18b-405a-bf03-ea5db88cf6eb)
 
+<hr>
+
 ## Installation
 
 1. Clone the repository: `git clone <repository-url>`
 2. Open the project folder in your preferred code editor.
 3. In the project directory, open the `index.html` file in a web browser to view the website.
 
+<hr>
+
 ## Technologies Used
-HTML5
-CSS3
-JavaScript
-JSON
-Google API for Map
+HTML5 <br>
+CSS3 <br>
+JavaScript <br>
+JSON <br>
+Google API for Map <br>
+
+<hr>
 
 ## Contact
 
